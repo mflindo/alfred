@@ -1,0 +1,148 @@
+{% extends "base.html" %}
+
+{% block body %}
+<body class="no-header-image">
+<!-- Preloader -->
+<div id="preloader">
+  <div id="status">
+    <div class="parent">
+      <div class="child">
+        <p class="small">loading</p>
+      </div>
+    </div>
+  </div>
+</div>
+<header class="clearfix">
+ 
+  
+  <h1 id="logo"> <a href="{% url '/index.html' %}">Alfred</a> </h1> 
+  
+
+  <div id="nav-button"> <span class="nav-bar"></span> <span class="nav-bar"></span> <span class="nav-bar"></span> </div>
+  <nav>
+    <ul id="nav">
+      <li><a href="{% url '/index.html' %}" class="active">Inicio</a> </li>
+      <li><a href="#">Productos</a>
+        <ul>
+          <li><a href="{% url '/cine.html' %}" class="last">Cine</a></li>
+          <li><a href="{% url '/acidomatic.html' %}" class="last">Acid-O-Matic</a></li>
+	  <li><a href="{% url '/blancoynegro.html' %}" class="last">Blanco & Negro</a></li>
+	  <li><a href="{% url '/reserva.htm' %}l" class="last">Reserva</a></li>
+        </ul>
+      </li>
+      <li><a href="{% url '/historia.html' %}">Historia</a> </li>
+      <li><a href="{% url '/contacto.html' %}">Contacto</a> </li>
+    </ul>
+  </nav>
+</header>
+<!-- end header -->
+
+<div id="content">
+  <div class="container">
+    <div id="container" class="clearfix">
+      <section class="element  clearfix col3-3 auto home">
+        <div class="flexslider">
+          <div class="images">
+            <ul class="slides">
+              <li><img src="/static/images/alfred_acid2.jpg" alt="" />
+                <div class="caption">
+                  <p class="big">1 <span>of</span> 2</p>
+                </div>
+              </li>
+              <li><img src="/static/images/alfred_acid3.jpg" alt="" />
+                <div class="caption">
+                  <p class="big">2 <span>of</span> 2</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col3-3 white-bottom auto">
+          <div class="clear"></div>
+          <div class="column1">
+	<div class="images">
+           <img src="/static/images/alfredlogoblack.svg" alt="" /> </div>
+	<div class="images">
+           <img src="/static/images/stickers_acid.svg" alt="" /> </div>
+            <h3>Acid-O-Matic</h3>
+            <p class="small"><span>Category:<br />
+              <a href="#">Photography</a></span></p>
+            <p class="small"><span>Date:<br />
+              <a href="#">July 2014</a></span></p>
+            <p class="small"><span>Client:<br />
+              <a href="#">Apple Inc.</a></span></p>
+          </div>
+          <div class="column2">
+	    <h3>Datos Técnicos</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut tellus non elit feugiat molestie. Pellentesque eu lacus lacinia, vehicula augue pulvinar, finibus lacus. Etiam sed ullamcorper libero. Suspendisse sapien purus, accumsan at hendrerit at, efficitur ut ante. Donec a posuere dolor. Cras a scelerisque purus. Suspendisse non condimentum massa, sit amet eleifend tellus. Vestibulum et est eget elit placerat sodales. Pellentesque fermentum nibh bibendum aliquet aliquet. Pellentesque est urna, tempor in ultrices et, congue non lacus. Nullam vitae mattis ante.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut tellus non elit feugiat molestie. Pellentesque eu lacus lacinia, vehicula augue pulvinar, finibus lacus. </p>
+
+
+	    <h3>Sugerencias de Exposición</h3>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut tellus non elit feugiat molestie. Pellentesque eu lacus lacinia, vehicula augue pulvinar, finibus lacus. Etiam sed ullamcorper libero. Suspendisse sapien purus, accumsan at hendrerit at, efficitur ut ante. Donec a posuere dolor. Cras a scelerisque purus. Suspendisse non condimentum massa, sit amet eleifend tellus. Vestibulum et est eget elit placerat sodales. Pellentesque fermentum nibh bibendum aliquet aliquet. Pellentesque est urna, tempor in ultrices et, congue non lacus. Nullam vitae mattis ante.</p>
+	<h3>Sugerencias de Revelado</h3>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut tellus non elit feugiat molestie. Pellentesque eu lacus lacinia, vehicula augue pulvinar, finibus lacus. Etiam sed ullamcorper libero. Suspendisse sapien purus, accumsan at hendrerit at, efficitur ut ante. Donec a posuere dolor. Cras a scelerisque purus. Suspendisse non condimentum massa, sit amet eleifend tellus. Vestibulum et est eget elit placerat sodales. Pellentesque fermentum nibh bibendum aliquet aliquet. Pellentesque est urna, tempor in ultrices et, congue non lacus. Nullam vitae mattis ante.</p>
+	<p>Mauris tincidunt blandit metus. Aliquam ante metus, tincidunt nec ultricies in, suscipit rutrum erat. Ut consectetur eleifend felis laoreet gravida. Donec efficitur elit ac felis feugiat iaculis. Aenean mattis nisl elit, vitae maximus nisl tempor eget. Nam ut erat augue. Praesent semper nec leo at dictum. Aliquam sit amet metus ex. Aliquam eleifend libero eget ante consectetur, eu interdum massa pulvinar. Donec et fringilla nibh. Donec tincidunt neque vel arcu convallis, non ultricies sem volutpat. Etiam bibendum purus diam, sit amet accumsan ipsum tempor et. Suspendisse fringilla metus quis orci viverra varius. Suspendisse volutpat sit amet tellus ut efficitur. Mauris ac sollicitudin urna, sed pretium sapien. Ut imperdiet lectus eu nisi vulputate blandit.</p>
+           
+          </div> 
+          <div class="clear"></div>
+          <div class="borderline"></div>
+          <div class="borderline second"></div>
+          <p class="small alignleft"><a href="#" data-title="">Visit Website <span class="arrow">→</span></a></p>
+          <p class="small alignright">Share: &nbsp;&nbsp; <a href="#" title="">Twitter</a> &nbsp;&middot;&nbsp; <a href="#" title="">Facebook</a> &nbsp;&middot;&nbsp; <a href="#" title="">Behance</a> &nbsp;&middot;&nbsp; <a href="#" title="">Pinterest</a></p>
+          <div class="clear"></div>
+        </div>
+      </section>
+      <section class="element  clearfix col1-3 half home photography"> <a href="/static/images/pic08.jpg" data-title="Project Title Here" data-fancybox-group="group1" class="popup">
+        <div class="images">
+          <div class="parent">
+            <div class="child">
+              <div class="icons zoom"></div>
+              <div class="info-wrapper">
+                <h4>Hipster Set</h4>
+                <p class="small">Photography</p>
+              </div>
+            </div>
+          </div>
+          <img src="/static/images/pic08-th.jpg" alt="" />
+          <div class="overlay"></div>
+        </div>
+        </a> </section>
+      <section class="element  clearfix col1-3 half home video"> <a href="http://www.youtube.com/embed/oWYp1xRPH5g" class="video-popup" data-title="Project Title Here">
+        <div class="images">
+          <div class="parent">
+            <div class="child">
+              <div class="icons video"></div>
+              <div class="info-wrapper">
+                <h4>Married Couple</h4>
+                <p class="small">Youtube</p>
+              </div>
+            </div>
+          </div>
+          <img src="/static/images/pic10-th.jpg" alt="" />
+          <div class="overlay"></div>
+        </div>
+        </a> </section>
+      <section class="element  clearfix col1-3 half home photography"> <a href="/static/images/pic07.jpg" data-title="Project Title Here" data-fancybox-group="group1" class="popup">
+        <div class="images">
+          <div class="parent">
+            <div class="child">
+              <div class="icons camera"></div>
+              <div class="info-wrapper">
+                <h4>Woman Waiting</h4>
+                <p class="small">Photography</p>
+              </div>
+            </div>
+          </div>
+          <img src="/static/images/pic07-th.jpg" alt="" />
+          <div class="overlay"></div>
+        </div>
+        </a> </section>
+    </div>
+  </div>
+  <!-- end container -->
+</div>
+<!-- end content -->
+
+
+{% endblock %}

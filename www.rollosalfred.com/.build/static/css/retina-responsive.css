@@ -5,7 +5,7 @@
 only screen and (-moz-min-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min-device-pixel-ratio: 1.5) {
-h1#logo a { background:url(../images/bg-logo@2x.png) center no-repeat; background-size:166px 21px; }
+h1#logo a { background:url(../images/alfredlogo@2x.png) center no-repeat; background-size:106px 21px; }
 
 .close { background:url(../images/bg-close@2x.png) center no-repeat; background-size:48px 48px; position:absolute; right:35px; top:35px; z-index:28; width:48px; height:48px; display:block }
 .icons.play {background:url(../images/bg-play@2x.png) center no-repeat; background-size:48px 48px; }

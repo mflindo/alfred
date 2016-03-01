@@ -1,0 +1,185 @@
+{% extends "base.html" %}
+
+{% block body %}
+<body class="no-header-image">
+<!-- Preloader -->
+<div id="preloader">
+  <div id="status">
+    <div class="parent">
+      <div class="child">
+        <p class="small">loading</p>
+      </div>
+    </div>
+  </div>
+</div>
+<header class="clearfix">
+ 
+  
+  <h1 id="logo"> <a href="{% url '/index.html' %}">Alfred</a> </h1> 
+  
+
+  <div id="nav-button"> <span class="nav-bar"></span> <span class="nav-bar"></span> <span class="nav-bar"></span> </div>
+  <nav>
+    <ul id="nav">
+      <li><a href="{% url '/index.html' %}" class="active">Inicio</a> </li>
+      <li><a href="#">Productos</a>
+        <ul>
+          <li><a href="{% url '/cine.html' %}" class="last">Cine</a></li>
+          <li><a href="{% url '/acidomatic.html' %}" class="last">Acid-O-Matic</a></li>
+	  <li><a href="{% url '/blancoynegro.html' %}" class="last">Blanco & Negro</a></li>
+	  <li><a href="{% url '/reserva.htm' %}l" class="last">Reserva</a></li>
+        </ul>
+      </li>
+      <li><a href="{% url '/historia.html' %}">Historia</a> </li>
+      <li><a href="{% url '/contacto.html' %}">Contacto</a> </li>
+    </ul>
+  </nav>
+</header>
+<!-- end header -->
+
+<div id="content">
+  <div class="container">
+    <div id="container" class="clearfix">
+      <section class="element  clearfix col3-3 auto home">
+        <div class="flexslider">
+          <div class="images">
+            <ul class="slides">
+              <li><img src="/static/images/alfred_cine2.jpg" alt="" />
+                <div class="caption">
+                  <p class="big">1 <span>of</span> 2</p>
+                </div>
+              </li>
+              <li><img src="/static/images/alfred_cine3.jpg" alt="" />
+                <div class="caption">
+                  <p class="big">2 <span>of</span> 2</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col3-3 white-bottom auto">
+          <div class="clear"></div>
+          <div class="column1">
+            <div class="images">
+           <img src="/static/images/alfredlogoblack.svg" alt="" /> </div>
+	<div class="images">
+          
+          <img src="/static/images/stickers_cine.svg" alt="" /> </div>
+	    <h3>Cine</h3>
+            <p class="small"><span>Category:<br />
+              <a href="#">Photography</a></span></p>
+            <p class="small"><span>Date:<br />
+              <a href="#">July 2014</a></span></p>
+            <p class="small"><span>Client:<br />
+              <a href="#">Apple Inc.</a></span></p>
+	
+          </div>
+          <div class="column2">
+	    <h3>Datos Técnicos</h3>
+            <p>Este rollo ALFRED Cine contiene una emulsión cinematográfica especificada en su etiqueta. La emulsión cinematográfica, usada para rodar películas en formato analógico en su versión 35mm, puede ser usada en fotografía fija adaptándola a un chasis de fotografía analógica. El formato 35mm es prácticamente el mismo soporte pero con cualidades y estándares de calidad distintos al de fotografía convencional. El rollo ALFRED Cine se aleja un poco del estilo tradicional de la fotografía analógica y trae la estética de la imagen movimiento un poco más cerca del fotógrafo.</p>
+	<p>Idealmente, el rollo contaría con cuarenta exposiciones, pero este factor puede variar entre 38 y 42 debido a su ensamblaje manual, hecho con material virgen de primera calidad y chasis reciclados. Alrededor de la exposición 38, correr la película con cuidado hasta sentir un tope. NO FORZAR.</p>
+	<p>La nomenclatura técnica de la película de cine suele ser confusa para usuarios primerizos. Generalmente consiste en un número seguido por T o D (i.e. 250D o 500T), donde el número es la sensibilidad de la película (ASA) y la letra es la temperatura color.</p>
+       
+	    <h3>Temperatura Color</h3>
+	    <p>Las emulsiones están balanceadas para dos temperaturas color: Tungsteno 3200K (T) y Día 5500K (D). Esto quiere decir que las luces cálidas se verán neutro en películas tungsteno, mientras que las luces frías se verán neutro en películas día. Aunque los rollos tienden a tener un balance de blancos determinado, alentamos al usuario a probar el rollo en situaciones que tengan fuentes de luz con temperatura color opuesta a la especificada.</p>
+	    
+	    <h3>Sugerencias de Exposición</h3>
+		<p>Para exponer este rollo correctamente le recomendamos usar un fotómetro tomando en cuenta las siguientes consideraciones:</p>
+
+	    <p>La película de cine suele tener valores de sensibilidad (ASA) no convencionales para la fotografía fija. Por ejemplo, la sensibilidad 500 es 1/3 de stop más sensible que 400. Si su cámara no tiene para exponer 500ASA, marque 400ASA y sub-exponga 1/3 de stop.</p>
+
+
+
+		<h3>Sugerencias de Revelado</h3>
+		<p>La materia prima con la que está fabricado el rollo es película de cine. A diferencia de la película fotográfica convencional, contiene una capa antihalo o Remjet que debe ser removida al momento de revelar.</p>
+		<h5>ECN-2 / Revelado de Cine</h5>
+		<p>El revelado color llamado ECN-2 incluye la remoción de la capa antihalo en su proceso. Este tipo de revelado se consigue casi exclusivamente en laboratorios de cine que trabajan con millones de metros de película al año. Desafortunadamente, no los hay en todos los países y no siempre se prestan a revelar los casi dos metros de emulsión que contiene un rollo. Sin embargo, existen laboratorios que ofrecen revelarlos por una suma generalmente menor al revelado común C-41.</p>
+		<h5>C-41 / Revelado Artesanal</h5>
+		<p>Debido a que a veces resulta imposible realizar el proceso ECN-2, se han buscado alternativas caseras para revelar estos rollos con químicos convencionales.</p>
+		<p><b>ATENCIÓN: </b>Si trata de revelar un rollo de cine con proceso C-41 sin remover la capa antihalo/Remjet ensuciará sus químicos y tendra que desecharlos.</p>
+		<p>Necesitará:</p>
+		<ul id="rollos">
+		<li>Agua Caliente</li>
+		<li>Tanque de revelado</li>
+		<li>Bicarbonato de sodio</li>
+		<li>Botella de 1 litro</li>
+		<li>Químicos de revelado C-41</li>
+		<li>Kodak Photo-flo (opcional)</li>
+		<li>Chamois sintético o esponja suave</li>
+		<li>Un rollo ALFRED Cine expuesto correctamente</li>
+		</ul>
+
+		<p>Para remover la capa antihalo/Remjet de manera casera siga los siguientes pasos:</p>
+		<ol>
+		<li><p>Mezcle 1 cucharada de bicarbonato de sodio con un litro de agua caliente (35&deg;C a 40&deg;C) en la botella. Revuélvalo bien y viértalo en el tanque de revelado con la película dentro del carrete. Agite bruscamente durante 1 1/2 minutos. Cuando vierta el agua notará puntos rosados/rojos o un tinte negro, dependiendo de la emulsión que use. Continúe este proceso de agua caliente y bicarbonato de sodio hasta que el agua salga limpia.</p></li>
+		<li><p>Una vez removida la capa antihalo/Remjet, necesitará limpiar su emulsión del bicarbonato de sodio. Llene 3/4 tanque con agua tibia o caliente, agite brevemente y deseche el agua.</p></li>
+		<li><p>Siga con el proceso C-41 habitual.</p></li>
+		<li><p>Cuando sea el momento de usar el estabilizador, recomendamos agregar 5 ml de Kodak Photo-flo para evitar suciedad y rayas al momento de manipular el negativo. Verter la mezcla en el tanque de revelado y agitar por 15 segundos. Dejar que el negativo descanse en la mezcla por un minutos.</li>
+		<li><p>Abre el tanque de revelado, retire el carrete que contiene el negativo sin descartar el estabilizador y saque el negativo del carrete. Sumerja un Chamois sintético en el estabilizador. Luego, envuelva el negativo con el Chamois, recorriendo la longitud del mismo y limpiando los restos de capa antihalo/Remjet restantes. Trate el negativo con cuidado para evitar estropear o rallar la emulsión.</p>
+<p>Asegúrese de haber removido en su totalidad la capa antihalo/Remjet de toda la superficie. Devuelva el negativo al Estabilizador por unos instantes. Lave el Chamois con agua caliente y luego, usando el lado limpio, envuelva el negativo nuevamente para secarlos de manera pareja y evitar manchas.</p></li>
+		<li><p>Seque por dos horas antes de escanear o ampliar el negativo.</p></li>
+		</ol>
+		
+           
+          </div> 
+          <div class="clear"></div>
+          <div class="borderline"></div>
+          <div class="borderline second"></div>
+          <p class="small alignleft"><a href="#" data-title="">Visit Website <span class="arrow">→</span></a></p>
+          <p class="small alignright">Share: &nbsp;&nbsp; <a href="#" title="">Twitter</a> &nbsp;&middot;&nbsp; <a href="#" title="">Facebook</a> &nbsp;&middot;&nbsp; <a href="#" title="">Behance</a> &nbsp;&middot;&nbsp; <a href="#" title="">Pinterest</a></p>
+          <div class="clear"></div>
+        </div>
+      </section>
+      <section class="element  clearfix col1-3 half home photography"> <a href="/static/images/pic08.jpg" data-title="Project Title Here" data-fancybox-group="group1" class="popup">
+        <div class="images">
+          <div class="parent">
+            <div class="child">
+              <div class="icons zoom"></div>
+              <div class="info-wrapper">
+                <h4>Hipster Set</h4>
+                <p class="small">Photography</p>
+              </div>
+            </div>
+          </div>
+          <img src="/static/images/pic08-th.jpg" alt="" />
+          <div class="overlay"></div>
+        </div>
+        </a> </section>
+      <section class="element  clearfix col1-3 half home video"> <a href="http://www.youtube.com/embed/oWYp1xRPH5g" class="video-popup" data-title="Project Title Here">
+        <div class="images">
+          <div class="parent">
+            <div class="child">
+              <div class="icons video"></div>
+              <div class="info-wrapper">
+                <h4>Married Couple</h4>
+                <p class="small">Youtube</p>
+              </div>
+            </div>
+          </div>
+          <img src="/static/images/pic10-th.jpg" alt="" />
+          <div class="overlay"></div>
+        </div>
+        </a> </section>
+      <section class="element  clearfix col1-3 half home photography"> <a href="/static/images/pic07.jpg" data-title="Project Title Here" data-fancybox-group="group1" class="popup">
+        <div class="images">
+          <div class="parent">
+            <div class="child">
+              <div class="icons camera"></div>
+              <div class="info-wrapper">
+                <h4>Woman Waiting</h4>
+                <p class="small">Photography</p>
+              </div>
+            </div>
+          </div>
+          <img src="/static/images/pic07-th.jpg" alt="" />
+          <div class="overlay"></div>
+        </div>
+        </a> </section>
+    </div>
+  </div>
+  <!-- end container -->
+</div>
+<!-- end content -->
+
+
+{% endblock %}
