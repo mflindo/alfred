@@ -17,6 +17,7 @@
 12. Social
 13. Googlemaps
 14. Comments
+15. Tables
 -------------------------------------------------------------------*/
 
 
@@ -275,5 +276,22 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:52px; width:52px;
 #comments h2 { font-size:15px; padding-bottom:0px; padding-top:6px; color:#555; font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight:600; text-transform:none; margin-bottom:0px; letter-spacing:0 }
 #comments .meta { font-family:'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size:11px; text-transform:uppercase; letter-spacing:1px; color:#8d8d8d}
 #comments .meta .reply {float:right }
+/* End Comments
+--------------------------------------------------------------------------------------------------------*/
+
+/* =15. Tables
+--------------------------------------------------------------------------------------------------------*/
+table#rollos {
+    width: 100%; 
+    border: 1px solid black;
+   }
+
+td, th {
+    border: 1px solid black;
+    padding: 5px;
+}
+th#table { font-size:18px; letter-spacing:2px; padding-bottom:3px; padding-top:3px; }
+
+
 /* End Comments
 --------------------------------------------------------------------------------------------------------*/

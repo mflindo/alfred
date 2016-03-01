@@ -1,6 +1,10 @@
 {% extends "base.html" %}
 
 {% block body %}
+
+
+
+
 <div id="content">
   <div class="container">
     <div id="container" class="clearfix">
@@ -15,12 +19,12 @@
             <div class="child">
               <div class="icons illustration"></div>
               <div class="info-wrapper">
-                <h4>some castle</h4>
-                <p class="small">Illustration</p>
+                <h4>Alfred Cine</h4>
+                <p class="small">Fresh</p>
               </div>
             </div>
           </div>
-          <img src="/static/images/alfred_acid.jpg" alt="" /> </div>
+          <img src="#" alt="" /> </div>
         <div class="overlay"></div>
         </a> </section>
 
@@ -31,8 +35,8 @@
             <div class="child">
               <div class="icons drawing"></div>
               <div class="info-wrapper">
-                <h4>Winter Road</h4>
-                <p class="small">Drawing</p>
+                <h4>Professional as fuck</h4>
+                <p class="small">Make pictures pop yo</p>
               </div>
             </div>
           </div>
@@ -51,8 +55,8 @@
             <div class="child">
               <div class="icons drawing"></div>
               <div class="info-wrapper">
-                <h4>Winter Road</h4>
-                <p class="small">Drawing</p>
+                <h4>Trippy as fuck</h4>
+                <p class="small">Make pictures psychodelic yo</p>
               </div>
             </div>
           </div>
@@ -61,14 +65,14 @@
         </a> </section>
 
 
- <section class="element  clearfix col1-3 home"> <a href="#" data-title="Project Title Here" data-fancybox-group="group2" class="popup">
+ <section class="element  clearfix col1-3 home"> <a href="#" data-title="Acid-O-Matic" data-fancybox-group="group2" class="popup">
         <div class="images">
           <div class="parent">
             <div class="child">
               <div class="icons illustration"></div>
               <div class="info-wrapper">
-                <h4>some castle</h4>
-                <p class="small">Illustration</p>
+                <h4>Alfred Acid</h4>
+                <p class="small">Alternative</p>
               </div>
             </div>
           </div>
@@ -88,8 +92,8 @@
             <div class="child">
               <div class="icons illustration"></div>
               <div class="info-wrapper">
-                <h4>some castle</h4>
-                <p class="small">Illustration</p>
+                <h4>Alfred Blanco y Negro</h4>
+                <p class="small">Classy</p>
               </div>
             </div>
           </div>
@@ -104,8 +108,8 @@
             <div class="child">
               <div class="icons drawing"></div>
               <div class="info-wrapper">
-                <h4>Winter Road</h4>
-                <p class="small">Drawing</p>
+                <h4>Majestic as fuck</h4>
+                <p class="small">Make your pictures deep yo</p>
               </div>
             </div>
           </div>
@@ -124,8 +128,8 @@
             <div class="child">
               <div class="icons drawing"></div>
               <div class="info-wrapper">
-                <h4>Winter Road</h4>
-                <p class="small">Drawing</p>
+                <h4>Fancy as fuck</h4>
+                <p class="small">Make your pictures epic yo</p>
               </div>
             </div>
           </div>
@@ -139,8 +143,8 @@
             <div class="child">
               <div class="icons illustration"></div>
               <div class="info-wrapper">
-                <h4>some castle</h4>
-                <p class="small">Illustration</p>
+                <h4>Alfred Reserva</h4>
+                <p class="small">Artistic</p>
               </div>
             </div>
           </div>
