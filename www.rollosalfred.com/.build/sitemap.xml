@@ -6,7 +6,17 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>/acidomatic.html</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>/project.html</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>/acid.html</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -17,6 +27,16 @@
     </url>
     <url>
         <loc>/index.html</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>/reserva.html</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>/cine.html</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>

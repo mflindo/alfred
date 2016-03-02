@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+<body class="about">
+<!-- Preloader -->
+<!-- <div id="preloader">
+  <div id="status">
+    <div class="parent">
+      <div class="child">
+        <p class="small">loading</p>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+<header class="clearfix">
+  <h1 id="logo"> <a href="{% url '/index.html' %}">ALFRED</a> </h1>
+  <div id="nav-button"> <span class="nav-bar"></span> <span class="nav-bar"></span> <span class="nav-bar"></span> </div>
+  <nav>
+    <ul id="nav">
+      <li><a href="{% url '/index.html' %}" class="active">Inicio</a> </li>
+      <li><a href="#">Productos</a>
+        <ul>
+          <li><a href="{% url '/cine.html' %}" class="last">Cine</a></li>
+          <li><a href="{% url '/acidomatic.html' %}" class="last">Acid-O-Matic</a></li>
+	  <li><a href="{% url '/blancoynegro.html' %}" class="last">Blanco & Negro</a></li>
+	  <li><a href="{% url '/reserva.html' %}l" class="last">Reserva</a></li>
+        </ul>
+      </li>
+      <li><a href="{% url '/historia.html' %}">Historia</a> </li>
+      <li><a href="{% url '/contacto.html' %}">Contacto</a> </li>
+    </ul>
+  </nav>
+  <div id="heading">
+    <div class="parent">
+      <div class="child">
+        <h2>Historia</h2>
+      </div>
+    </div>
+  </div>
+  <div class="overlay"></div>
+</header>
+<!-- end header -->
+<div id="content">
+  <div class="container">
+    <div id="container" class="clearfix">
+      
+      <section class="element  clearfix col3-3 home">
+
+<div class="col3-3 white">
+          <h3>Historia</h3>
+          
+          <p>En cierta forma, ALFRED nace en el 2010 de la iniciativa y el entusiasmo de estudiantes de cine apasionados por la fotografía analógica. Todo empezó con la idea de rebobinar película de cine de chasis de fotografía reciclados y así experimentar con distintas emulsiones. El experimento fue un éxito y luego de varios meses de pruebas, errores y aciertos, ALFRED sale al mercado con dos líneas: 250D y 500T. Paradójicamente, mientras en el mundo disminuía la oferta y variedad de película, nosotros nos encontrábamos con que más personas se entusiasmaban con nuestros rollos. Así, fuimos creciendo, y hoy ALFRED cuenta con 4 líneas de rollos: B&N200, ACID-O-MATIC, RESERVA, y CINE, que se fabrican en sus dos talleres ubicados en Ciudad de Panamá y Buenos Aires.</p>
+	  <p>Las cámaras digitales y el mndo inmediato en el que vivimos nos ha vuelto impacientes, adictos a recibir una respuesta inmediata. Hemos banalizado la fotografía a modo de que una cámara digital toma tantas fotos seguidas que realmente no importa el disparo, la exposición o el pensar y analizar bien un encuadre. Por el contrario, la fotografía analógica nos enseña a perfeccionarnos en ser pacientes, aprender a mirar, esperar el momento justo y al mismo tiempo ser rápido para no perderlo. La película no es infinita, cada foto vale y cuesta, y el instante capturado depende de la seguridad que tiene el fotógrafo para confiar en que la imagen está siendo capturada correctamente.</p>
+<div class="borderline"></div>
+          <div class="borderline second"></div>
+	  <div class="borderline second"></div>
+	  <div class="borderline second"></div>
+        </div>
+       </section>
+      <section class="element  clearfix col1-3 home photography">
+        <div class="images no-icon">
+          <div class="parent">
+            <div class="child">
+              <h4>Tomas <i>"La Rata"</i> Cortes</h4>
+              <p class="small">– on –<br />
+                <a href="#">Instagram</a><br />
+                <a href="#">Facebook</a></p>
+            </div>
+          </div>
+          <img src="/static/images/about01.jpg" alt="" class="lazy" />
+          <div class="overlay"></div>
+        </div>
+      </section>
+      <section class="element  clearfix col2-3 home">
+        <div class="col1-3 connect">
+          <div class="images"><img src="/static/images/pic04.jpg" alt="" /></div>
+        </div>
+        <div class="col1-3 white-right2">
+          <h3>Filosofía</h3>
+          
+          <p class="big"><i>Piensa en este rollo hecho a mano como una manera de combatir esa adicción a la inmediatez hija de nuestra era. Tómese su tiempo, disfrute el arte de capturar una imagen y esperar a que ésta se revele.</i></p>
+<div class="borderline"></div>
+	<div class="borderline second"></div>
+	  <div class="borderline second"></div>
+	  <div class="borderline second"></div>
+          <p class="small bottom"><a href="portfolio.html">View our work <span class="arrow">→</span></a></p>
+        </div>
+        <div class="clear"></div>
+      </section>
+    </div>
+  </div>
+  <!-- end container -->
+</div>
+<!-- end content -->
+
+
+{% endblock %}

@@ -58,7 +58,7 @@
 /* =3. Typography
 --------------------------------------------------------------------------------------------------------*/
 html {overflow: -moz-scrollbars-vertical; overflow-y: scroll; -webkit-font-smoothing: antialiased; }
-body { font: 14px Georgia, "Times New Roman", Times, serif; color:#555; background:#000;  }
+body { font: 14px Oswald, Georgia, "Times New Roman", Times, serif; color:#555; background:#000;  }
 strong { font-weight:600; }
 em {font-size:17px; }
 a, a > * {-webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; }
@@ -75,7 +75,7 @@ p.big {font-size:16px; line-height:24px; font-style:italic; }
 #heading p.big, .images p.big {color:#fff; display:block; margin-top:-7px; }
 .images p.big {margin-top:-11px; }
 blockquote { line-height:27px; padding:19px 40px 17px 55px; margin:20px 0px 4px 0px; border-bottom:1px dotted #2b2b2b; border-top:1px dotted #2b2b2b; color:#333; font-size:20px; font-style:italic; }
-blockquote:before {content:"“"; float:left; display:block; margin-left:-64px; font-family:Georgia, "Times New Roman", Times, serif; font-size:96px; margin-top:30px; font-weight:400 }
+blockquote:before {content:"“"; float:left; display:block; margin-left:-64px; font-family:Oswald, Georgia, "Times New Roman", Times, serif; font-size:96px; margin-top:30px; font-weight:400 }
 blockquote span {font-size:14px; display:block; margin-top:9px; color:#8d8d8d}
 .uppercase {text-transform:uppercase }
 p.small.uppercase {font-size:11px; }
@@ -134,7 +134,7 @@ nav { margin:0px auto; position:relative; display:table; height:41px; z-index:12
 
 /* =6. Main Content
 --------------------------------------------------------------------------------------------------------*/
-header { position:relative; z-index:5555; width:920px; margin:0 auto; margin-top:40px; padding:23px 40px; background:url(../images/alfredlogo.svg) center top no-repeat; height:400px; }
+header { position:relative; z-index:5555; width:920px; margin:0 auto; margin-top:40px; padding:23px 40px; background:url(../images/pic01.jpg) center top no-repeat; height:400px; }
 .portfolio header { background:url(../images/pic01c.jpg) center top no-repeat; }
 .alternative header { background:url(../images/pic01b.jpg) center top no-repeat; }
 .about header { background:url(../images/pic01e.jpg) center top no-repeat; }

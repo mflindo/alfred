@@ -3,7 +3,7 @@
 {% block body %}
 <body class="contact">
 <!-- Preloader -->
-<div id="preloader">
+<!-- <div id="preloader">
   <div id="status">
     <div class="parent">
       <div class="child">
@@ -11,29 +11,29 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 <header class="clearfix">
-  <h1 id="logo"> <a href="index.html">Camera</a> </h1>
+  <h1 id="logo"> <a href="{% url '/index.html' %}">ALFRED</a> </h1>
   <div id="nav-button"> <span class="nav-bar"></span> <span class="nav-bar"></span> <span class="nav-bar"></span> </div>
   <nav>
     <ul id="nav">
-      <li><a href="index.html">Home</a> </li>
-      <li><a href="services.html">Services</a> </li>
-      <li><a href="portfolio.html">Portfolio</a>
+      <li><a href="{% url '/index.html' %}" class="active">Inicio</a> </li>
+      <li><a href="#">Productos</a>
         <ul>
-          <li><a href="alternative.html">Alternative</a></li>
-          <li><a href="project.html" class="last">Project</a></li>
+          <li><a href="{% url '/cine.html' %}" class="last">Cine</a></li>
+          <li><a href="{% url '/acidomatic.html' %}" class="last">Acid-O-Matic</a></li>
+	  <li><a href="{% url '/blancoynegro.html' %}" class="last">Blanco & Negro</a></li>
+	  <li><a href="{% url '/reserva.html' %}" class="last">Reserva</a></li>
         </ul>
       </li>
-      <li><a href="about.html">About</a> </li>
-      <li><a href="blog.html">Blog</a> </li>
-      <li><a href="contact.html" class="active">Contact</a> </li>
+      <li><a href="{% url '/historia.html' %}">Historia</a> </li>
+      <li><a href="{% url '/contacto.html' %}">Contacto</a> </li>
     </ul>
   </nav>
   <div id="heading">
     <div class="parent">
       <div class="child">
-        <h2>Contact</h2>
+        <h2>Contactenos</h2>
       </div>
     </div>
   </div>
@@ -48,34 +48,34 @@
           <div class="images"><img src="/static/images/pic09.jpg" alt="" /></div>
         </div>
         <div class="col1-3 white-bottom">
-          <h3>We're Open</h3>
-          <div class="borderline"></div>
-          <p>Monday – Friday: 9AM – 6PM<br />
-            Saturday: 10AM – 7PM<br />
-            Sunday: Closed</p>
+          <h3>Nuestras ubicaciones</h3>
+          
+          <p><a href="http://www.diablorosso.com/" target="_blank">Diablo Rosso</a><br />
+	  <a href="http://www.diablorosso.com/Super-Mini" target="_blank">Super Mini Diablo Rosso</a><br />
+	<a href="https://www.facebook.com/Arm%C3%B3nica-Shop-163619356993880/" target="_blank">Armónica Shop</a></p>
         </div>
         <div class="clear"></div>
       </section>
       <section class="element  clearfix col2-3 home">
         <div class="col1-3 connect">
-          <div class="images"><img src="images/pic04b.jpg" alt="" /></div>
+          <div class="images"><img src="/static/images/pic04b.jpg" alt="" /></div>
         </div>
         <div class="col1-3 white-right2">
-          <h3>Drop Us a Line</h3>
+          <h3>Escribenos</h3>
           <div class="borderline"></div>
           <div id="contact">
             <form method="post" action="contact.php" name="contactform" id="contactform" autocomplete="off">
               <fieldset>
               <div class="alignleft padding-right">
-                <label for="name" accesskey="U"><span class="required">Your Name</span></label>
-                <input name="name" type="text" id="name" size="30" title="Your Name" />
+                <label for="name" accesskey="U"><span class="required">Nombre</span></label>
+                <input name="name" type="text" id="name" size="30" title="Nombre" />
                 <label for="email" accesskey="E"><span class="required">Email</span></label>
                 <input name="email" type="text" id="email" size="30" title="Email" />
               </div>
-              <label for="comments" accesskey="C"><span class="required">Say Something</span></label>
+              <label for="comments" accesskey="C"><span class="required">Hecha tu cinta</span></label>
               <textarea name="comments" cols="40" rows="3" id="comments" title="Say Something"></textarea>
               <span class="break"></span>
-              <p class="hide">We'll get back to you asap.</p>
+              <p class="hide">Te responderemos pronto</p>
               <span id="message"></span>
               <input type="submit" class="submit" id="submit" value="» Submit" />
               </fieldset>

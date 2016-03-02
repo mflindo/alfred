@@ -45,7 +45,7 @@
     <div id="container" class="clearfix">
       <section class="element  clearfix col1-3 home">
         <div class="col1-3 half connect">
-          <div class="images"><img src="/static/images/pic09.jpg" alt="" /></div>
+          <div class="images"><img src="images/pic09.jpg" alt="" /></div>
         </div>
         <div class="col1-3 white-bottom">
           <h3>We're Open</h3>
