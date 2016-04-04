@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block body %}
-<body class="no-header-image">
+<body class="no-header-image cine">
 <!-- Preloader -->
 <div id="preloader">
   <div id="status">
@@ -19,15 +19,15 @@
   
 
   <div id="nav-button"> <span class="nav-bar"></span> <span class="nav-bar"></span> <span class="nav-bar"></span> </div>
-  <nav>
-    <ul id="nav">
+  <nav class="cine">
+    <ul id="navcine">
       <li><a href="{% url '/index.html' %}" class="active">Inicio</a> </li>
       <li><a href="#">Productos</a>
         <ul>
           <li><a href="{% url '/cine.html' %}" class="last">Cine</a></li>
           <li><a href="{% url '/acidomatic.html' %}" class="last">Acid-O-Matic</a></li>
 	  <li><a href="{% url '/blancoynegro.html' %}" class="last">Blanco & Negro</a></li>
-	  <li><a href="{% url '/reserva.html' %}l" class="last">Reserva</a></li>
+	  <li><a href="{% url '/reserva.html' %}" class="last">Reserva</a></li>
         </ul>
       </li>
       <li><a href="{% url '/historia.html' %}">Historia</a> </li>
@@ -44,12 +44,12 @@
         <div class="flexslider">
           <div class="images">
             <ul class="slides">
-              <li><img src="/static/images/alfred_cine2.jpg" alt="" />
+              <li><img src="/static/images/cine1.jpg" alt="" />
                 <div class="caption">
                   <p class="big">1 <span>of</span> 2</p>
                 </div>
               </li>
-              <li><img src="/static/images/alfred_cine3.jpg" alt="" />
+              <li><img src="/static/images/cine2.jpg" alt="" />
                 <div class="caption">
                   <p class="big">2 <span>of</span> 2</p>
                 </div>
@@ -61,21 +61,21 @@
           <div class="clear"></div>
           <div class="column1">
             <div class="images">
-           <img src="/static/images/alfredlogoblack.svg" alt="" /> </div>
+           <img src="/static/images/cine_logo.svg" alt="" /> </div>
 	<div class="images">
           
           <img src="/static/images/stickers_cine.svg" alt="" /> </div>
 	    <h3>Cine</h3>
             <p class="small"><span>Categoria:<br />
-              <a href="#">Rollo Artesanal</a></span></p>
-            <p class="small"><span>Usos<br />
-              <a href="#">Día - </a><a href="#">Interiores - </a><a href="#">Ser hipster - </a><a href="#">Ser edgy</a><br /></span></p>
-            <p class="small"><span>Ubicaciones<br />
-              <a href="#">Super Mini Diablo Rosso</a><br />
-	      <a href="#">Sr. Tomas "La Rata" Cortes</a><br />
-	      <a href="#">El culo de tu mamá</a><br /></span></p>
-	<p class="small"><span>MANUAL<br />
-              <a href="#">DESCARGA</a><br /></span></p>
+              <a href="#">Profesional</a></span></p>
+            <p class="small"><span>Revelados<br />
+              <a href="#">ECN-2</a><br /></span></p>
+            <p class="small"><span>ASA/ISO<br />
+              <a href="#">(Ver detalles en caja)</a></span></p>
+	    <p class="small"><span>Exposiciones<br />
+              <a href="#">40 Exposiciones</a><br /></span></p>
+	    <p class="small"><span>Uso recomendable:<br />
+              <a href="#">Dependiendo de la emulsión. Día / Tungsteno</a></span></p>
 	
           </div>
           <div class="column2">
@@ -136,48 +136,48 @@
           <div class="clear"></div>
         </div>
       </section>
-      <section class="element  clearfix col1-3 half home photography"> <a href="/static/images/pic08.jpg" data-title="Project Title Here" data-fancybox-group="group1" class="popup">
+      <section class="element  clearfix col1-3 half home photography"> <a href="/static/images/cine_hq1.jpg" data-title="Fotografía Cine" data-fancybox-group="group1" class="popup" target="_blank">
         <div class="images">
           <div class="parent">
             <div class="child">
               <div class="icons zoom"></div>
               <div class="info-wrapper">
-                <h4>Hipster Set</h4>
-                <p class="small">Photography</p>
+                <h4>Mujer</h4>
+                <p class="small">Fotografía</p>
               </div>
             </div>
           </div>
-          <img src="/static/images/pic08-th.jpg" alt="" />
+          <img src="/static/images/cine_th1.jpg" alt="" />
           <div class="overlay"></div>
         </div>
         </a> </section>
-      <section class="element  clearfix col1-3 half home video"> <a href="http://www.youtube.com/embed/oWYp1xRPH5g" class="video-popup" data-title="Project Title Here">
+      <section class="element  clearfix col1-3 half home photography"> <a href="/static/images/cine_hq1.jpg" data-title="Fotografía Cine" data-fancybox-group="group1" class="popup" target="_blank">
         <div class="images">
           <div class="parent">
             <div class="child">
               <div class="icons video"></div>
               <div class="info-wrapper">
-                <h4>Married Couple</h4>
-                <p class="small">Youtube</p>
+                <h4>Vecindario</h4>
+                <p class="small">Fotografía</p>
               </div>
             </div>
           </div>
-          <img src="/static/images/pic10-th.jpg" alt="" />
+          <img src="/static/images/cine_th2.jpg" alt="" />
           <div class="overlay"></div>
         </div>
         </a> </section>
-      <section class="element  clearfix col1-3 half home photography"> <a href="/static/images/pic07.jpg" data-title="Project Title Here" data-fancybox-group="group1" class="popup">
+      <section class="element  clearfix col1-3 half home photography"> <a href="/static/images/cine_hq3.jpg" data-title="Fotografía Cine" data-fancybox-group="group1" class="popup" target="_blank">
         <div class="images">
           <div class="parent">
             <div class="child">
               <div class="icons camera"></div>
               <div class="info-wrapper">
-                <h4>Woman Waiting</h4>
-                <p class="small">Photography</p>
+                <h4>Pescadores</h4>
+                <p class="small">Fotografía</p>
               </div>
             </div>
           </div>
-          <img src="/static/images/pic07-th.jpg" alt="" />
+          <img src="/static/images/cine_th3.jpg" alt="" />
           <div class="overlay"></div>
         </div>
         </a> </section>

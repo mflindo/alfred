@@ -59,6 +59,8 @@
 --------------------------------------------------------------------------------------------------------*/
 html {overflow: -moz-scrollbars-vertical; overflow-y: scroll; -webkit-font-smoothing: antialiased; }
 body { font: 16px Oswald, Georgia, "Times New Roman", Times, serif; color:#555; background:#000;  }
+body.cine { font: 16px Oswald, Georgia, "Times New Roman", Times, serif; color:#555; background:#ecda62;  }
+body.acid { font: 16px Oswald, Georgia, "Times New Roman", Times, serif; color:#555; background:#a7dbd5;  }
 strong { font-weight:600; }
 em {font-size:17px; }
 a, a > * {-webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; }
@@ -101,7 +103,7 @@ h1#logo a { display:block; background:url(../images/alfredlogo.png) center no-re
 .tagline span { display: table-cell; vertical-align: middle; }
 .hentry h1, h2, h3, h4, h5 { line-height:1.3; font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color:#2b2b2b; display:block; position:relative; letter-spacing:4px; text-transform:uppercase; font-weight:700; }
 .hentry h1 a, h2 a, h3 a, h4 a, h5 a { color:#2b2b2b; text-decoration:none }
-h2 {font-size:48px; color:#fff; padding-bottom:1px; }
+h2 {font-size:40px; color:#fff; padding-bottom:1px; }
 .white-bottom h2 {font-size:24px; color:#2b2b2b; text-transform:none; letter-spacing:0; }
 h3 {font-size:18px; letter-spacing:2px; padding-bottom:3px; padding-top:19px; }
 .blog h3, .service h3 {text-transform:none; letter-spacing:0; padding-top:4px; padding-bottom:2px; font-size:19px; }
@@ -128,13 +130,46 @@ nav { margin:0px auto; position:relative; display:table; height:41px; z-index:12
 #nav li ul li a.last {border:0 }
 #nav li ul li:hover a {color:#2b2b2b; }
 #nav li:hover ul { display:block }
+
+
+navcine { margin:0px auto; position:relative; display:table; height:41px; z-index:12; float:right; }
+#navcine { display: table-cell; vertical-align: middle; white-space:nowrap }
+#navcine li { float:left; margin:0px 0px 0px 25px; position:relative; padding:9px 0 11px 0; }
+#navcine li a { color:#000000; font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size:12px; font-weight:600; text-decoration:none; text-transform:uppercase; display:inline-block; opacity:0.8; cursor:pointer; letter-spacing:1px }
+#navcine li a:hover, #navcine li a.active, #navcine li a.selected { opacity:1; }
+#navcine li ul {position:absolute; margin-top:10px; margin-left:-15px; left:0; padding:7px 15px; width:auto; background:#fff; -webkit-box-shadow:0 1px 0 rgba(0, 0, 0, 0.2); -moz-box-shadow:0 1px 0 rgba(0, 0, 0, 0.2) ; box-shadow:0 1px 0 rgba(0, 0, 0, 0.2); display:none; }
+#navcine li ul:before {content:''; height:0; width:0; border-width:7px 7px 7px 7px; border-style:solid; border-color:rgba(251,251,251,0) rgba(255,255,255,0) rgba(255,255,255,1) rgba(255,255,255,0); position:absolute; top:-14px; margin-left:0px; border-top-style:inset; }
+#navcine li ul li {float:none; margin:0px; padding:0 }
+#navcine li ul li a {padding:6px 0 7px 0; border-bottom:1px dotted #2b2b2b; font-size:11px; color:#8d8d8d; display:block }
+#navcine li ul li a.last {border:0 }
+#navcine li ul li:hover a {color:#e56568; }
+#navcine li:hover ul { display:block }
+
+
+navacid { margin:0px auto; position:relative; display:table; height:41px; z-index:12; float:right; }
+#navacid { display: table-cell; vertical-align: middle; white-space:nowrap }
+#navacid li { float:left; margin:0px 0px 0px 25px; position:relative; padding:9px 0 11px 0; }
+
+#navacid li a { color:#f6ea68; font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size:12px; font-weight:600; text-decoration:none; text-transform:uppercase; display:inline-block; opacity:0.8; cursor:pointer; letter-spacing:1px }
+#navacid li a:hover, #navacid li a.active, #navacid li a.selected { opacity:1; }
+#navacid li ul {position:absolute; margin-top:10px; margin-left:-15px; left:0; padding:7px 15px; width:auto; background:#fff; -webkit-box-shadow:0 1px 0 rgba(0, 0, 0, 0.2); -moz-box-shadow:0 1px 0 rgba(0, 0, 0, 0.2) ; box-shadow:0 1px 0 rgba(0, 0, 0, 0.2); display:none; }
+#navacid li ul:before {content:''; height:0; width:0; border-width:7px 7px 7px 7px; border-style:solid; border-color:rgba(251,251,251,0) rgba(255,255,255,0) rgba(255,255,255,1) rgba(255,255,255,0); position:absolute; top:-14px; margin-left:0px; border-top-style:inset; }
+#navacid li ul li {float:none; margin:0px; padding:0 }
+#navacid li ul li a {padding:6px 0 7px 0; border-bottom:1px dotted #2b2b2b; font-size:11px; color:#8d8d8d; display:block }
+#navacid li ul li a.last {border:0 }
+#navacid li ul li:hover a {color:#2b2b2b; }
+#navacid li:hover ul { display:block }
+
+
 /* End Main Nav
 --------------------------------------------------------------------------------------------------------*/
 
 
+
+
 /* =6. Main Content
 --------------------------------------------------------------------------------------------------------*/
-header { position:relative; z-index:5555; width:920px; margin:0 auto; margin-top:40px; padding:23px 40px; background:url(../images/pic01.jpg) center top no-repeat; height:400px; }
+header { position:relative; z-index:5555; width:920px; margin:0 auto; margin-top:40px; padding:23px 40px; background:url(../images/alfred_rollos.JPG) center top no-repeat; height:400px; background-size:920px 400px;}
 .portfolio header { background:url(../images/pic01c.jpg) center top no-repeat; }
 .alternative header { background:url(../images/pic01b.jpg) center top no-repeat; }
 .about header { background:url(../images/pic01e.jpg) center top no-repeat; }
@@ -172,8 +207,10 @@ a:visited .white-right2:before { border-color:transparent rgba(255,255,255,1) tr
 .column1 {width:260px; padding-right:40px; float:left }
 .column2 {width:580px; border-left:1px dotted #2b2b2b; padding:0px 0px 20px 40px; margin-top:3px; float:left }
 .column-count2 {-webkit-column-count:2; -moz-column-count:2; column-count:2; -webkit-column-gap:35px; -moz-column-gap:35px; column-gap:35px; }
-.borderline { border-bottom:3px solid #2b2b2b; height:1px; position:relative; display:block; margin:18px 0px 3px 0px; width:100%; }
-.borderline.second { margin:2px 0px 3px 0px; }
+.borderline { border-bottom:3px solid #2b2b2b; height:1px; position:relative; display:block; margin:18px 0px 5px 0px; width:100%; }
+.borderline.second { margin:2px 0px 5px 0px; }
+.borderline2 { border-bottom:3px solid #ffffff; height:1px; position:relative; display:block; margin:18px 0px 5px 0px; width:100%; }
+.borderline2.second { margin:2px 0px 5px 0px; }
 .overlay { display:block; position:absolute; top:0; left:0; background-color:rgba(0,0,0,.3); z-index:10; width:100%; height:100%; }
 .alternative .images .overlay {display:none }
 /* =End Main Content
