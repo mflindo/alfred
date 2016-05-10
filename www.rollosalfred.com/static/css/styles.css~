@@ -60,6 +60,7 @@
 html {overflow: -moz-scrollbars-vertical; overflow-y: scroll; -webkit-font-smoothing: antialiased; }
 body { font: 16px Oswald, Georgia, "Times New Roman", Times, serif; color:#555; background:#000;  }
 body.cine { font: 16px Oswald, Georgia, "Times New Roman", Times, serif; color:#555; background:#ecda62;  }
+body.acid { font: 16px Oswald, Georgia, "Times New Roman", Times, serif; color:#555; background:#a7dbd5;  }
 strong { font-weight:600; }
 em {font-size:17px; }
 a, a > * {-webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; }
@@ -145,6 +146,21 @@ navcine { margin:0px auto; position:relative; display:table; height:41px; z-inde
 #navcine li:hover ul { display:block }
 
 
+navacid { margin:0px auto; position:relative; display:table; height:41px; z-index:12; float:right; }
+#navacid { display: table-cell; vertical-align: middle; white-space:nowrap }
+#navacid li { float:left; margin:0px 0px 0px 25px; position:relative; padding:9px 0 11px 0; }
+
+#navacid li a { color:#f6ea68; font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size:12px; font-weight:600; text-decoration:none; text-transform:uppercase; display:inline-block; opacity:0.8; cursor:pointer; letter-spacing:1px }
+#navacid li a:hover, #navacid li a.active, #navacid li a.selected { opacity:1; }
+#navacid li ul {position:absolute; margin-top:10px; margin-left:-15px; left:0; padding:7px 15px; width:auto; background:#fff; -webkit-box-shadow:0 1px 0 rgba(0, 0, 0, 0.2); -moz-box-shadow:0 1px 0 rgba(0, 0, 0, 0.2) ; box-shadow:0 1px 0 rgba(0, 0, 0, 0.2); display:none; }
+#navacid li ul:before {content:''; height:0; width:0; border-width:7px 7px 7px 7px; border-style:solid; border-color:rgba(251,251,251,0) rgba(255,255,255,0) rgba(255,255,255,1) rgba(255,255,255,0); position:absolute; top:-14px; margin-left:0px; border-top-style:inset; }
+#navacid li ul li {float:none; margin:0px; padding:0 }
+#navacid li ul li a {padding:6px 0 7px 0; border-bottom:1px dotted #2b2b2b; font-size:11px; color:#8d8d8d; display:block }
+#navacid li ul li a.last {border:0 }
+#navacid li ul li:hover a {color:#2b2b2b; }
+#navacid li:hover ul { display:block }
+
+
 /* End Main Nav
 --------------------------------------------------------------------------------------------------------*/
 
@@ -163,6 +179,7 @@ header { position:relative; z-index:5555; width:920px; margin:0 auto; margin-top
 .no-header-image header, .one-page header {background:none; height:auto; }
 #content {width:100%; position:relative; z-index:56; height:auto; margin-top:5px;}
 .container { padding:0px; width:930px; position:relative; margin:0 auto; }
+.containeracid
 #heading {position:absolute; top:0; left:0; width:100%; z-index:11; }
 #heading .parent {width:100%; }
 /* =End Main Content
@@ -222,9 +239,14 @@ a:visited .white-right2:before { border-color:transparent rgba(255,255,255,1) tr
 .googleplus {background:url(../images/bg-googleplus.png) center no-repeat; background-size:50px 50px; }
 .twitter {background:url(../images/bg-twitter.png) center no-repeat; background-size:50px 51px; } 
 .facebook {background:url(../images/bg-facebook.png) center no-repeat; background-size:50px 51px; }
+.instagram {background:url(../images/bg-instagram.png) center no-repeat; background-size:50px 51px; }
 .behance {background:url(../images/bg-behance.png) center no-repeat; background-size:50px 50px; }
 .skype {background:url(../images/bg-skype.png) center no-repeat; background-size:50px 51px; }
 .vimeo {background:url(../images/bg-vimeo.png) center no-repeat; background-size:50px 50px; }
+
+.twitteracid {background:url(../images/bg-twitter_acid.png) center no-repeat; background-size:50px 51px; } 
+.facebookacid {background:url(../images/bg-facebook_acid.png) center no-repeat; background-size:50px 51px; }
+.instagram {background:url(../images/bg-instagram_acid.png) center no-repeat; background-size:50px 51px; }
 /* End Icons
 --------------------------------------------------------------------------------------------------------*/
 
@@ -259,9 +281,12 @@ ul#rollos {list-style-type:disc; padding:15px 0px 0 0px; margin-left:24px;}
 --------------------------------------------------------------------------------------------------------*/
 footer { height:auto; position:relative; padding:0px 35px 95px 35px; text-align:center; z-index:100 }
 footer p {display:inline-block; margin:0 10px; font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size:14px; letter-spacing:2px; font-style:normal; text-transform:uppercase; color:#fff; opacity:0.7 }
+footeracid p {display:inline-block; margin:0 10px; font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size:14px; letter-spacing:2px; font-style:normal; text-transform:uppercase; color:#fcf171; opacity:0.7 }
 footer p a { color:#fff; border:0 }
+footeracid p a { color:#fcf171; border:0 }
 footer p span { font-family:Georgia, "Times New Roman", Times, serif; text-transform:none; letter-spacing:0; font-style:italic }
 footer p a:hover { color:#fff; }
+
 /* End Footer
 --------------------------------------------------------------------------------------------------------*/
 

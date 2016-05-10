@@ -22,9 +22,14 @@ h1#logo a { background:url(../images/alfredlogo@2x.png) center no-repeat; backgr
 .googleplus {background:url(../images/bg-googleplus@2x.png) center no-repeat; background-size:50px 50px; }
 .twitter {background:url(../images/bg-twitter@2x.png) center no-repeat; background-size:50px 51px; } 
 .facebook {background:url(../images/bg-facebook@2x.png) center no-repeat; background-size:50px 51px; }
+.instagram {background:url(../images/bg-instagram@2x.png) center no-repeat; background-size:50px 51px; }
 .behance {background:url(../images/bg-behance@2x.png) center no-repeat; background-size:50px 50px; }
 .skype {background:url(../images/bg-skype@2x.png) center no-repeat; background-size:50px 51px; }
 .vimeo {background:url(../images/bg-vimeo@2x.png) center no-repeat; background-size:50px 50px; }
+
+.facebookacid {background:url(../images/bg-facebook@2x_acid.png) center no-repeat; background-size:50px 51px; }
+.instagramacid {background:url(../images/bg-instagram@2x_acid.png) center no-repeat; background-size:50px 51px; }
+.twitteracid {background:url(../images/bg-twitter@2x_acid.png) center no-repeat; background-size:50px 51px; } 
 
 .flex-direction-nav .flex-next {background:url(../images/bg-next@2x.png) center no-repeat; background-size:48px 48px; }
 .flex-direction-nav .flex-prev {background:url(../images/bg-prev@2x.png) center no-repeat; background-size:48px 48px; }
