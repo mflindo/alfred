@@ -20,7 +20,8 @@
   
 
   <div id="nav-button"> <span class="nav-bar"></span> <span class="nav-bar"></span> <span class="nav-bar"></span> </div>
-  <navacid>
+  <nav>
+<ul id="nav">
     <ul id="navacid">
       <li><a href="{% url '/index.html' %}" class="active">Inicio</a> </li>
       <li><a href="#">Productos</a>
@@ -34,7 +35,8 @@
       <li><a href="{% url '/historia.html' %}">Historia</a> </li>
       <li><a href="{% url '/contacto.html' %}">Contacto</a> </li>
     </ul>
-  </navacid>
+   </ul>
+  </nav>
 </header>
 <!-- end header -->
 
@@ -164,9 +166,9 @@
 <footeracid>
   <div class="container">
     <ul class="social clearfix">
-      <li><a href="#" onClick="return false" class="twitteracid">Visit our twitter Account</a></li>
-      <li><a href="#" onClick="return false" class="instagramacid">Visit our behance Account</a></li>
-      <li><a href="#" onClick="return false" class="facebookacid">Visit our facebook Account</a></li>
+      <li><a href="#" onClick="return false" class="facebookacid">Visit our Facebook Account</a></li>
+      <li><a href="#" onClick="return false" class="instagramacid">Visit our Instagram Account</a></li>
+      <li><a href="#" onClick="return false" class="twitteracid">Visit our Twitter Account</a></li>
     </ul>
     <p>Paitilla, Ciudad de Panamá</p>
     <p>(845) 123-4567</p>

@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block body %}
-<body class="no-header-image">
+<body class="no-header-image reserva">
 <!-- Preloader -->
 <div id="preloader">
   <div id="status">
@@ -15,24 +15,26 @@
 <header class="clearfix">
  
   
-  <h1 id="logo"> <a href="{% url '/index.html' %}">Alfred</a> </h1> 
+  <h1 id="logoreserva"> <a href="{% url '/index.html' %}">Alfred</a> </h1> 
   
 
   <div id="nav-button"> <span class="nav-bar"></span> <span class="nav-bar"></span> <span class="nav-bar"></span> </div>
   <nav>
     <ul id="nav">
+	<ul id="navreserva">
       <li><a href="{% url '/index.html' %}" class="active">Inicio</a> </li>
       <li><a href="#">Productos</a>
         <ul>
           <li><a href="{% url '/cine.html' %}" class="last">Cine</a></li>
           <li><a href="{% url '/acidomatic.html' %}" class="last">Acid-O-Matic</a></li>
 	  <li><a href="{% url '/blancoynegro.html' %}" class="last">Blanco & Negro</a></li>
-	  <li><a href="{% url '/reserva.html' %}l" class="last">Reserva</a></li>
+	  <li><a href="{% url '/reserva.html' %}" class="last">Reserva</a></li>
         </ul>
       </li>
       <li><a href="{% url '/historia.html' %}">Historia</a> </li>
       <li><a href="{% url '/contacto.html' %}">Contacto</a> </li>
     </ul>
+   </ul>
   </nav>
 </header>
 <!-- end header -->
@@ -60,23 +62,21 @@
         <div class="col3-3 white-bottom auto">
           <div class="clear"></div>
           <div class="column1">
-            <div class="images">
-           <img src="/static/images/alfredlogoblack.svg" alt="" /> </div>
 	<div class="images">
-          
-          <img src="/static/images/stickers_reserva.svg" alt="" /> </div>
-	    <h3>Reserva</h3>
-            <p class="small"><span>Categoria:<br />
-              <a href="#">Rollo Artesanal</a></span></p>
-            <p class="small"><span>Usos<br />
-              <a href="#">Día - </a><a href="#">Interiores - </a><a href="#">Ser hipster - </a><a href="#">Ser edgy</a><br /></span></p>
-            <p class="small"><span>Ubicaciones<br />
-              <a href="#">Super Mini Diablo Rosso</a><br />
-	      <a href="#">Sr. Tomas "La Rata" Cortes</a><br />
-	      <a href="#">El culo de tu mamá</a><br /></span></p>
-	<p class="small"><span>MANUAL<br />
-              <a href="#">DESCARGA</a><br /></span></p>
-	
+           <img src="/static/images/reserva_logo.svg" alt="" /> </div>
+	<div class="images">
+           <img src="/static/images/stickers_reserva.svg" alt="" /> </div>
+           <h3>Reserva</h3>
+            <p class="small"><span>Categoria:
+              <p>Experimental</p></span></p>
+            <p class="small"><span>Revelados
+              <p>ECN-2 / C-41 (Ver detalle en caja)</p></span></p>
+            <p class="small"><span>ASA/ISO
+              <p>(Ver detalle en caja)</p></span></p>
+	    <p class="small"><span>Exposiciones
+              <p>40 Exposiciones</p></span></p>
+	    <p class="small"><span>Uso recomendable:
+              <p>Dependiendo de la emulsión. Día / Tungsteno</p></span></p>
           </div>
           <div class="column2">
 	    <h3>Datos Técnicos</h3>
@@ -133,48 +133,48 @@
           <div class="clear"></div>
         </div>
       </section>
-      <section class="element  clearfix col1-3 half home photography"> <a href="/static/images/pic08.jpg" data-title="Project Title Here" data-fancybox-group="group1" class="popup">
+      <section class="element  clearfix col1-3 half home photography"> <a href="/static/images/reserva_hq1.jpg" data-title="Fotografía Reserva" data-fancybox-group="group1" class="popup" target="_blank">
         <div class="images">
           <div class="parent">
             <div class="child">
               <div class="icons zoom"></div>
               <div class="info-wrapper">
-                <h4>Hipster Set</h4>
-                <p class="small">Photography</p>
+                <h4>Planificación</h4>
+                <p class="small">Fotografía</p>
               </div>
             </div>
           </div>
-          <img src="/static/images/pic08-th.jpg" alt="" />
+          <img src="/static/images/reserva_th1.jpg" alt="" />
           <div class="overlay"></div>
         </div>
         </a> </section>
-      <section class="element  clearfix col1-3 half home video"> <a href="http://www.youtube.com/embed/oWYp1xRPH5g" class="video-popup" data-title="Project Title Here">
+      <section class="element  clearfix col1-3 half home photography"> <a href="/static/images/reserva_hq2.jpg" data-title="Fotografía Reserva" data-fancybox-group="group1" class="popup" target="_blank">
         <div class="images">
           <div class="parent">
             <div class="child">
-              <div class="icons video"></div>
+              <div class="icons zoom"></div>
               <div class="info-wrapper">
-                <h4>Married Couple</h4>
-                <p class="small">Youtube</p>
+                <h4>Gasolinera</h4>
+                <p class="small">Fotografía</p>
               </div>
             </div>
           </div>
-          <img src="/static/images/pic10-th.jpg" alt="" />
+          <img src="/static/images/reserva_th2.jpg" alt="" />
           <div class="overlay"></div>
         </div>
         </a> </section>
-      <section class="element  clearfix col1-3 half home photography"> <a href="/static/images/pic07.jpg" data-title="Project Title Here" data-fancybox-group="group1" class="popup">
+      <section class="element  clearfix col1-3 half home photography"> <a href="/static/images/byn_hq3.jpg" data-title="Fotografía Reserva" data-fancybox-group="group1" class="popup" target="_blank">
         <div class="images">
           <div class="parent">
             <div class="child">
-              <div class="icons camera"></div>
+              <div class="icons zoom"></div>
               <div class="info-wrapper">
-                <h4>Woman Waiting</h4>
-                <p class="small">Photography</p>
+                <h4>Mujer</h4>
+                <p class="small">Fotografía</p>
               </div>
             </div>
           </div>
-          <img src="/static/images/pic07-th.jpg" alt="" />
+          <img src="/static/images/reserva_th3.jpg" alt="" />
           <div class="overlay"></div>
         </div>
         </a> </section>
@@ -184,5 +184,20 @@
 </div>
 <!-- end content -->
 
+<footer>
+  <div class="container">
+    <ul class="social clearfix">
+      <li><a href="#" onClick="return false" class="facebookreserva">Visit our Facebook Account</a></li>
+      <li><a href="#" onClick="return false" class="instagramreserva">Visit our Instagram Account</a></li>
+      <li><a href="#" onClick="return false" class="twitterreserva">Visit our Twitter Account</a></li>
+      
+    </ul>
+    <p>Paitilla, Ciudad de Panamá</p>
+    <p>(845) 123-4567</p>
+    <p><a href="mailto:info@domain.com">info@rollosalfred.com</a></p>
+    <div class="clear"></div>
+    <p><span>© 2016, Alfred. Todos los derechos reservados.</span></p>
+  </div>
+</footer>
 
 {% endblock %}

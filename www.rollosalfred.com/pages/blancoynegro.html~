@@ -62,20 +62,20 @@
           <div class="clear"></div>
           <div class="column1">
 	<div class="images">
-           <img src="/static/images/alfredlogoblack.svg" alt="" /> </div>
+           <img src="/static/images/byn_logo.svg" alt="" /> </div>
 	<div class="images">
            <img src="/static/images/stickers_blancoynegro.svg" alt="" /> </div>
             <h3>Blanco & Negro 200</h3>
             <p class="small"><span>Categoria:<br />
-              <a href="#">Rollo Artesanal</a></span></p>
-            <p class="small"><span>Usos<br />
-              <a href="#">Día - </a><a href="#">Interiores - </a><a href="#">Ser hipster - </a><a href="#">Ser edgy</a><br /></span></p>
-            <p class="small"><span>Ubicaciones<br />
-              <a href="#">Super Mini Diablo Rosso</a><br />
-	      <a href="#">Sr. Tomas "La Rata" Cortes</a><br />
-	      <a href="#">El culo de tu mamá</a><br /></span></p>
-	<p class="small"><span>MANUAL<br />
-              <a href="#">DESCARGA</a><br /></span></p>
+              <p>Profesional<p></span></p>
+            <p class="small"><span>Revelados<br />
+              <p>B&N Manual</p></span></p>
+            <p class="small"><span>ASA/ISO
+              <p>200 ASA</p></span></p>
+	    <p class="small"><span>Exposiciones
+              <p>40 Exposiciones</p><br /></span></p>
+	    <p class="small"><span>Uso recomendable:
+              <p>Interiores / Exteriores</p></span></p>
           </div>
           <div class="column2">
 	    <h3>Datos Técnicos</h3>
@@ -144,7 +144,7 @@
 		    <td>10 min.</td> 
 		  </tr>
 		<tr>
-		    <td>Secado0</td>
+		    <td>Secado</td>
 		    <td>35&deg;C</td> 
 		    <td>------</td> 
 		  </tr>
@@ -161,48 +161,48 @@
           <div class="clear"></div>
         </div>
       </section>
-      <section class="element  clearfix col1-3 half home photography"> <a href="/static/images/pic08.jpg" data-title="Project Title Here" data-fancybox-group="group1" class="popup">
+      <section class="element  clearfix col1-3 half home photography"> <a href="/static/images/byn_hq1.jpg" data-title="Fotografía Blanco y Negro 200" data-fancybox-group="group1" class="popup" target="_blank">
         <div class="images">
           <div class="parent">
             <div class="child">
               <div class="icons zoom"></div>
               <div class="info-wrapper">
-                <h4>Hipster Set</h4>
-                <p class="small">Photography</p>
+                <h4>Maquillaje</h4>
+                <p class="small">Fotografía</p>
               </div>
             </div>
           </div>
-          <img src="/static/images/pic08-th.jpg" alt="" />
+          <img src="/static/images/byn_th1.jpg" alt="" />
           <div class="overlay"></div>
         </div>
         </a> </section>
-      <section class="element  clearfix col1-3 half home video"> <a href="http://www.youtube.com/embed/oWYp1xRPH5g" class="video-popup" data-title="Project Title Here">
+      <section class="element  clearfix col1-3 half home photography"> <a href="/static/images/byn_hq2.jpg" data-title="Fotografía Blanco y Negro 200" data-fancybox-group="group1" class="popup" target="_blank">
         <div class="images">
           <div class="parent">
             <div class="child">
-              <div class="icons video"></div>
+              <div class="icons zoom"></div>
               <div class="info-wrapper">
-                <h4>Married Couple</h4>
-                <p class="small">Youtube</p>
+                <h4>Carro</h4>
+                <p class="small">Fotografía</p>
               </div>
             </div>
           </div>
-          <img src="/static/images/pic10-th.jpg" alt="" />
+          <img src="/static/images/byn_th2.jpg" alt="" />
           <div class="overlay"></div>
         </div>
         </a> </section>
-      <section class="element  clearfix col1-3 half home photography"> <a href="/static/images/pic07.jpg" data-title="Project Title Here" data-fancybox-group="group1" class="popup">
+      <section class="element  clearfix col1-3 half home photography"> <a href="/static/images/byn_hq3.jpg" data-title="Fotografía Blanco y Negro 200" data-fancybox-group="group1" class="popup" target="_blank">
         <div class="images">
           <div class="parent">
             <div class="child">
-              <div class="icons camera"></div>
+              <div class="icons zoom"></div>
               <div class="info-wrapper">
-                <h4>Woman Waiting</h4>
-                <p class="small">Photography</p>
+                <h4>Personajes</h4>
+                <p class="small">Fotografía</p>
               </div>
             </div>
           </div>
-          <img src="/static/images/pic07-th.jpg" alt="" />
+          <img src="/static/images/byn_th3.jpg" alt="" />
           <div class="overlay"></div>
         </div>
         </a> </section>
@@ -212,5 +212,19 @@
 </div>
 <!-- end content -->
 
-
+<footer>
+  <div class="container">
+    <ul class="social clearfix">
+      <li><a href="#" onClick="return false" class="facebook">Visit our Facebook Account</a></li>
+      <li><a href="#" onClick="return false" class="instagram">Visit our Instagram Account</a></li>
+      <li><a href="#" onClick="return false" class="twitter">Visit our Twitter Account</a></li>
+      
+    </ul>
+    <p>Paitilla, Ciudad de Panamá</p>
+    <p>(845) 123-4567</p>
+    <p><a href="mailto:info@domain.com">info@rollosalfred.com</a></p>
+    <div class="clear"></div>
+    <p><span>© 2016, Alfred. Todos los derechos reservados.</span></p>
+  </div>
+</footer>
 {% endblock %}

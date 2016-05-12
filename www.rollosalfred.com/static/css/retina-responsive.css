@@ -5,7 +5,10 @@
 only screen and (-moz-min-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min-device-pixel-ratio: 1.5) {
-h1#logo a { background:url(../images/alfredlogo@2x.png) center no-repeat; background-size:106px 21px; }
+h1#logo a { background:url(../images/alfredlogowhite.svg) center no-repeat; background-size:106px 21px; }
+h1#logocine a { background:url(../images/alfredlogoblack.svg) center no-repeat; background-size:106px 21px; }
+h1#logoacid a { background:url(../images/alfredlogoacid.svg) center no-repeat; background-size:106px 21px; }
+h1#logoreserva a { background:url(../images/alfredlogoreserva.svg) center no-repeat; background-size:106px 21px; }
 
 .close { background:url(../images/bg-close@2x.png) center no-repeat; background-size:48px 48px; position:absolute; right:35px; top:35px; z-index:28; width:48px; height:48px; display:block }
 .icons.play {background:url(../images/bg-play@2x.png) center no-repeat; background-size:48px 48px; }
@@ -33,9 +36,9 @@ h1#logo a { background:url(../images/alfredlogo@2x.png) center no-repeat; backgr
 .twitteracid {background:url(../images/bg-twitter@2x_acid.png) center no-repeat; background-size:50px 51px; } 
 
 /* Cine Icons */
-.facebookcine {background:url(../images/bg-facebook@2x_cine.png) center no-repeat; background-size:50px 51px; }
-.instagramcine {background:url(../images/bg-instagram@2x_cine.png) center no-repeat; background-size:50px 51px; }
-.twittercine {background:url(../images/bg-twitter@2x_cine.png) center no-repeat; background-size:50px 51px; } 
+.facebookcine {background:url(../images/bg-facebook@2x_black.png) center no-repeat; background-size:50px 51px; }
+.instagramcine {background:url(../images/bg-instagram@2x_black.png) center no-repeat; background-size:50px 51px; }
+.twittercine {background:url(../images/bg-twitter@2x_black.png) center no-repeat; background-size:50px 51px; } 
 
 /* Reserva Icons */
 .facebookreserva {background:url(../images/bg-facebook@2x_reserva.png) center no-repeat; background-size:50px 51px; }
