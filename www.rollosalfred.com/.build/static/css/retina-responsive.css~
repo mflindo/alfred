@@ -27,7 +27,20 @@ h1#logo a { background:url(../images/alfredlogo@2x.png) center no-repeat; backgr
 .skype {background:url(../images/bg-skype@2x.png) center no-repeat; background-size:50px 51px; }
 .vimeo {background:url(../images/bg-vimeo@2x.png) center no-repeat; background-size:50px 50px; }
 
+/* Acid-O-Matic Icons */
 .facebookacid {background:url(../images/bg-facebook@2x_acid.png) center no-repeat; background-size:50px 51px; }
+.instagramacid {background:url(../images/bg-instagram@2x_acid.png) center no-repeat; background-size:50px 51px; }
+.twitteracid {background:url(../images/bg-twitter@2x_acid.png) center no-repeat; background-size:50px 51px; } 
+
+/* Cine Icons */
+.facebookcine {background:url(../images/bg-facebook@2x_acid.png) center no-repeat; background-size:50px 51px; }
+.instagramcine {background:url(../images/bg-instagram@2x_acid.png) center no-repeat; background-size:50px 51px; }
+.twittercine {background:url(../images/bg-twitter@2x_acid.png) center no-repeat; background-size:50px 51px; } 
+
+/* Reserva Icons */
+.facebookreserva {background:url(../images/bg-facebook@2x_acid.png) center no-repeat; background-size:50px 51px; }
+.instagramreserva {background:url(../images/bg-instagram@2x_acid.png) center no-repeat; background-size:50px 51px; }
+.twitterreserva {background:url(../images/bg-twitter@2x_acid.png) center no-repeat; background-size:50px 51px; } 
 
 .flex-direction-nav .flex-next {background:url(../images/bg-next@2x.png) center no-repeat; background-size:48px 48px; }
 .flex-direction-nav .flex-prev {background:url(../images/bg-prev@2x.png) center no-repeat; background-size:48px 48px; }

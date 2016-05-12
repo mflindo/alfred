@@ -19,7 +19,7 @@
   
 
   <div id="nav-button"> <span class="nav-bar"></span> <span class="nav-bar"></span> <span class="nav-bar"></span> </div>
-  <nav class="cine">
+  <navcine>
     <ul id="navcine">
       <li><a href="{% url '/index.html' %}" class="active">Inicio</a> </li>
       <li><a href="#">Productos</a>
@@ -33,7 +33,7 @@
       <li><a href="{% url '/historia.html' %}">Historia</a> </li>
       <li><a href="{% url '/contacto.html' %}">Contacto</a> </li>
     </ul>
-  </nav>
+  </navcine>
 </header>
 <!-- end header -->
 
@@ -186,6 +186,24 @@
   <!-- end container -->
 </div>
 <!-- end content -->
+
+
+<footer>
+<footercine>
+  <div class="container">
+    <ul class="social clearfix">
+      <li><a href="#" onClick="return false" class="twittercine">Visit our twitter Account</a></li>
+      <li><a href="#" onClick="return false" class="instagramcine">Visit our behance Account</a></li>
+      <li><a href="#" onClick="return false" class="facebookcine">Visit our facebook Account</a></li>
+    </ul>
+    <p>Paitilla, Ciudad de Panamá</p>
+    <p>(845) 123-4567</p>
+    <p><a href="mailto:info@domain.com">info@rollosalfred.com</a></p>
+    <div class="clear"></div>
+    <p><span>© 2016, Alfred. Todos los derechos reservados.</span></p>
+  </div>
+</footercine>
+</footer>
 
 
 {% endblock %}

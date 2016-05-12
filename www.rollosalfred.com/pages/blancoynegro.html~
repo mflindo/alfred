@@ -27,7 +27,7 @@
           <li><a href="{% url '/cine.html' %}" class="last">Cine</a></li>
           <li><a href="{% url '/acidomatic.html' %}" class="last">Acid-O-Matic</a></li>
 	  <li><a href="{% url '/blancoynegro.html' %}" class="last">Blanco & Negro</a></li>
-	  <li><a href="{% url '/reserva.html' %}l" class="last">Reserva</a></li>
+	  <li><a href="{% url '/reserva.html' %}" class="last">Reserva</a></li>
         </ul>
       </li>
       <li><a href="{% url '/historia.html' %}">Historia</a> </li>
