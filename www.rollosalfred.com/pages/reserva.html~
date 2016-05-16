@@ -185,8 +185,9 @@
 <!-- end content -->
 
 <footer>
+<footerreserva>
   <div class="container">
-    <ul class="social clearfix">
+    <ul class="social reserva clearfix">
       <li><a href="#" onClick="return false" class="facebookreserva">Visit our Facebook Account</a></li>
       <li><a href="#" onClick="return false" class="instagramreserva">Visit our Instagram Account</a></li>
       <li><a href="#" onClick="return false" class="twitterreserva">Visit our Twitter Account</a></li>
@@ -198,6 +199,7 @@
     <div class="clear"></div>
     <p><span>© 2016, Alfred. Todos los derechos reservados.</span></p>
   </div>
+</footerreserva>
 </footer>
 
 {% endblock %}

@@ -25,7 +25,7 @@
           <li><a href="{% url '/cine.html' %}" class="last">Cine</a></li>
           <li><a href="{% url '/acidomatic.html' %}" class="last">Acid-O-Matic</a></li>
 	  <li><a href="{% url '/blancoynegro.html' %}" class="last">Blanco & Negro</a></li>
-	  <li><a href="{% url '/reserva.html' %}l" class="last">Reserva</a></li>
+	  <li><a href="{% url '/reserva.html' %}" class="last">Reserva</a></li>
         </ul>
       </li>
       <li><a href="{% url '/historia.html' %}">Historia</a> </li>
@@ -61,21 +61,13 @@
        </section>
       <section class="element  clearfix col1-3 home photography">
         <div class="images no-icon">
-          <div class="parent">
-            <div class="child">
-              <h4>Tomas <i>"La Rata"</i> Cortes</h4>
-              <p class="small">– on –<br />
-                <a href="#">Instagram</a><br />
-                <a href="#">Facebook</a></p>
-            </div>
-          </div>
-          <img src="/static/images/about01.jpg" alt="" class="lazy" />
+          <img src="/static/images/alfred_creacion.jpg" alt="" class="lazy" />
           <div class="overlay"></div>
         </div>
       </section>
       <section class="element  clearfix col2-3 home">
         <div class="col1-3 connect">
-          <div class="images"><img src="/static/images/pic04.jpg" alt="" /></div>
+          <div class="images"><img src="/static/images/alfred_creacion2.jpg" alt="" /></div>
         </div>
         <div class="col1-3 white-right2">
           <h3>Filosofía</h3>
