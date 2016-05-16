@@ -160,10 +160,10 @@ nav { margin:0px auto; position:relative; display:table; height:41px; z-index:12
 header { position:relative; z-index:5555; width:920px; margin:0 auto; margin-top:40px; padding:23px 40px; background:url(../images/alfred_rollos.JPG) center top no-repeat; height:400px; background-size:920px 400px;}
 .portfolio header { background:url(../images/pic01c.jpg) center top no-repeat; }
 .alternative header { background:url(../images/pic01b.jpg) center top no-repeat; }
-.about header { background:url(../images/alfred_historia.jpg) center top no-repeat; }
+.about header { background:url(../images/alfred_historia.jpg) center top no-repeat; background-size:920px 400px;}
 .services header { background:url(../images/pic01f.jpg) center top no-repeat; }
-.blog header { background:url(../images/pic01g.jpg) center top no-repeat; }
-.contact header { background:url(../images/pic01d.jpg) center top no-repeat; }
+.blog header { background:url(../images/pic01g.jpg) center top no-repeat;  }
+.contact header { background:url(../images/alfred_contacto.jpg) center top no-repeat;background-size:920px 400px; }
 .no-header-image header, .one-page header {background:none; height:auto; }
 #content {width:100%; position:relative; z-index:56; height:auto; margin-top:5px;}
 .container { padding:0px; width:930px; position:relative; margin:0 auto; }
@@ -182,11 +182,13 @@ header { position:relative; z-index:5555; width:920px; margin:0 auto; margin-top
 .col1-3.connect {width:310px; height:400px; margin:0; float:left; overflow:hidden; z-index:10 }
 .col1-3.half.connect {width:300px; height:195px; }
 .col2-3.connect {margin:0; float:none; }
+.col3-3.auto {height: auto;}
 .white-right2:before {content:''; height:0; width:0; border-width:10px 10px 10px 10px; border-style:solid; border-color:rgba(251,251,251,0) rgba(255,255,255,1) rgba(255,255,255,0) rgba(255,255,255,0); position:absolute; left:-20px; top:38px; border-left-style:inset; }
 .white-bottom:before {content:''; height:0; width:0; border-width:10px 10px 10px 10px; border-style:solid; border-color:rgba(251,251,251,0) rgba(255,255,255,0) rgba(255,255,255,1) rgba(255,255,255,0); position:absolute; top:-20px; margin-left:0px; border-left-style:inset; }
 a:visited .white-right2:before { border-color:transparent rgba(255,255,255,1) transparent transparent !important; }
 .white-right2, .white-bottom {background:#fff; padding:15px 40px 35px 40px; z-index:10; margin:0 }
 .white-bottom {height:205px;  }
+.white-auto {background:#fff; padding:15px 40px 35px 40px; height:auto;}
 .white {background:#fff; padding:15px 40px 35px 40px; }
 .col1-3.auto, .col2-3.auto, .col3-3.auto {height:auto !important;  }
 .col2-3.white-bottom.auto {padding-bottom:36px; }
@@ -201,6 +203,7 @@ a:visited .white-right2:before { border-color:transparent rgba(255,255,255,1) tr
 .borderline2.second { margin:2px 0px 5px 0px; }
 .overlay { display:block; position:absolute; top:0; left:0; background-color:rgba(0,0,0,.35); z-index:10; width:100%; height:100%; }
 .alternative .images .overlay {display:none }
+.contacto { width: 270px; margin:5px; float:left; position:relative;}
 /* =End Main Content
 --------------------------------------------------------------------------------------------------------*/
 
