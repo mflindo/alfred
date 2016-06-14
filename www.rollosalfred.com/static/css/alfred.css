@@ -66,3 +66,20 @@ h1 a.big {
 .reserva #nav-button .nav-bar {
     background-color: #ffc708;
 }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), not all, not all, not all{
+  /* Acid-O-Matic Icons */
+.footeracid .twitter {background:url(../images/bg-twitter@2x_acid.png) center no-repeat; background-size:50px 51px; } 
+.footeracid .facebook {background:url(../images/bg-facebook@2x_acid.png) center no-repeat; background-size:50px 51px; }
+.footeracid .instagram {background:url(../images/bg-instagram@2x_acid.png) center no-repeat; background-size:50px 51px; }
+
+/* Cine Icons */
+.footercine .twitter {background:url(../images/bg-twitter@2x_black.png) center no-repeat; background-size:50px 51px; } 
+.footercine .facebook {background:url(../images/bg-facebook@2x_black.png) center no-repeat; background-size:50px 51px; }
+.footercine .instagram {background:url(../images/bg-instagram@2x_black.png) center no-repeat; background-size:50px 51px; }
+
+/* Reserva Icons */
+.footerreserva .twitter {background:url(../images/bg-twitter@2x_reserva.png) center no-repeat; background-size:50px 51px; } 
+.footerreserva .facebook {background:url(../images/bg-facebook@2x_reserva.png) center no-repeat; background-size:50px 51px; }
+.footerreserva .instagram {background:url(../images/bg-instagram@2x_reserva.png) center no-repeat; background-size:50px 51px; }
+  
+}
