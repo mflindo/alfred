@@ -11,11 +11,6 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>http://rollosalfred.com/project/</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
         <loc>http://rollosalfred.com/cine/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -31,22 +26,12 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>http://rollosalfred.com/contact/</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
         <loc>http://rollosalfred.com/historia/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>http://rollosalfred.com/</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>http://rollosalfred.com/about/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
