@@ -109,7 +109,7 @@ h4 {font-size:11px; letter-spacing:3px; }
 
 .white-right2:before {content:''; height:0; width:0; border-width:10px 10px 10px 10px; border-style:solid; border-color:rgba(251,251,251,0) rgba(255,255,255,0) rgba(255,255,255,1) rgba(255,255,255,0); position:absolute; top:-20px; margin:0px; left:40px; border-left-style:inset; }
 
-#nav-button {display:block; top:35px; right:40px; cursor:pointer; z-index:1000; position:absolute; -webkit-tap-highlight-color: rgba(0,0,0,0);}
+#nav-button {display:block; top:29px; right:40px; cursor:pointer; z-index:1000; position:absolute; -webkit-tap-highlight-color: rgba(0,0,0,0);}
 .nav-bar {background-color:#fff; border-radius:1px; display:block; width:25px; height:3px; margin:3px auto; }
 
 nav {display:block; float:none; height:auto }
