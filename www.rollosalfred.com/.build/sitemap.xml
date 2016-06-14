@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
     <url>
-        <loc>/contacto.html</loc>
+        <loc>http://rollosalfred.com/contacto/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/blancoynegro.html</loc>
+        <loc>http://rollosalfred.com/blancoynegro/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/project.html</loc>
+        <loc>http://rollosalfred.com/project/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/cine.html</loc>
+        <loc>http://rollosalfred.com/cine/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/reserva.html</loc>
+        <loc>http://rollosalfred.com/reserva/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/acidomatic.html</loc>
+        <loc>http://rollosalfred.com/acidomatic/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/contact.html</loc>
+        <loc>http://rollosalfred.com/contact/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/historia.html</loc>
+        <loc>http://rollosalfred.com/historia/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/index.html</loc>
+        <loc>http://rollosalfred.com/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/about.html</loc>
+        <loc>http://rollosalfred.com/about/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
