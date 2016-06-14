@@ -20,3 +20,30 @@ a.submit {
     font-size: 14px;
     /* display: none; */
 }
+/* Acid-O-Matic */
+.footeracid p {display:inline-block; margin:0 10px; font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size:14px; letter-spacing:2px; font-style:normal; text-transform:uppercase; color:#f05d7a; opacity:0.8 }
+.footeracid p a { color:#fcf171; border:0 }
+
+/* Cine */
+.footercine p {display:inline-block; margin:0 10px; font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size:14px; letter-spacing:2px; font-style:normal; text-transform:uppercase; color:#000000; opacity:0.8 }
+.footercine p a { color:#ec2027; border:0 }
+
+/* Reserva */
+.footerreserva p {display:inline-block; margin:0 10px; font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size:14px; letter-spacing:2px; font-style:normal; text-transform:uppercase; color:#ffc708; opacity:0.75; }
+.footerreserva p a { color:#ffffff; border:0 }
+.footerreserva p a:hover { color:#ffc708; }
+
+/* Acid-O-Matic Icons */
+.footeracid .twitter {background:url(../images/bg-twitter_acid.png) center no-repeat; background-size:50px 51px; } 
+.footeracid .facebook {background:url(../images/bg-facebook_acid.png) center no-repeat; background-size:50px 51px; }
+.footeracid .instagram {background:url(../images/bg-instagram_acid.png) center no-repeat; background-size:50px 51px; }
+
+/* Cine Icons */
+.footercine .twitter {background:url(../images/bg-twitter_black.png) center no-repeat; background-size:50px 51px; } 
+.footercine .facebook {background:url(../images/bg-facebook_black.png) center no-repeat; background-size:50px 51px; }
+.footercine .instagram {background:url(../images/bg-instagram_black.png) center no-repeat; background-size:50px 51px; }
+
+/* Reserva Icons */
+.footerreserva .twitter {background:url(../images/bg-twitter_reserva.png) center no-repeat; background-size:50px 51px; } 
+.footerreserva .facebook {background:url(../images/bg-facebook_reserva.png) center no-repeat; background-size:50px 51px; }
+.footerreserva .instagram {background:url(../images/bg-instagram_reserva.png) center no-repeat; background-size:50px 51px; }
