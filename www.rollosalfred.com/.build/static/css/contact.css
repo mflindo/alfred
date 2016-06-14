@@ -23,4 +23,8 @@ input.submit { display:inline-block;  width:auto; border:0px; padding:0; padding
 
 .loader { display:none; }
 
-#comments {height: 105px; }
+#comments {height: 105px;font-family: Oswald; }
+
+div#contact input {
+    font-family: Oswald;
+}

@@ -1,0 +1,22 @@
+/*Custom css Alfred
+Creado por BTC*/
+
+a.submit {
+    color: #404040;
+    text-decoration: blink;
+    font-style: italic;
+    font-size: 12px;
+    float: right;
+    margin-top: 10px;
+}
+#msg {
+    height: 105px;font-family: Oswald;
+}
+.required_field {
+    border-color: #fb8585;
+    border-style: double;
+}
+#result_msg {
+    font-size: 14px;
+    /* display: none; */
+}
