@@ -51,3 +51,9 @@ a.submit {
 .navcine li a { color:#000000!important;}
 .navacid li a { color:#f6ea68!important;}
 .navreserva li a { color: #ffc708!important;}
+
+h1 a.big {
+    width: 170px!important;
+    height: 33px!important;
+    background-size: cover!important;
+}
