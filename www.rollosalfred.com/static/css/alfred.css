@@ -47,3 +47,7 @@ a.submit {
 .footerreserva .twitter {background:url(../images/bg-twitter_reserva.png) center no-repeat; background-size:50px 51px; } 
 .footerreserva .facebook {background:url(../images/bg-facebook_reserva.png) center no-repeat; background-size:50px 51px; }
 .footerreserva .instagram {background:url(../images/bg-instagram_reserva.png) center no-repeat; background-size:50px 51px; }
+
+.navcine li a { color:#000000!important;}
+.navacid li a { color:#f6ea68!important;}
+.navreserva li a { color: #ffc708!important;}

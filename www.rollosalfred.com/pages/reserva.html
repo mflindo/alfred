@@ -1,44 +1,15 @@
+seo_title:
+seo_description:
+title:
+subtitle:
+bg_class: no-header-image reserva
+logo: logoreserva
+nav_color: navreserva
+loader: true
 footer: footerreserva
 {% extends "base.html" %}
 
 {% block body %}
-<body class="no-header-image reserva">
-<!-- Preloader -->
-<div id="preloader">
-  <div id="status">
-    <div class="parent">
-      <div class="child">
-        <p class="small">loading</p>
-      </div>
-    </div>
-  </div>
-</div>
-<header class="clearfix">
- 
-  
-  <h1 id="logoreserva"> <a href="{% url '/index.html' %}">Alfred</a> </h1> 
-  
-
-  <div id="nav-button"> <span class="nav-bar"></span> <span class="nav-bar"></span> <span class="nav-bar"></span> </div>
-  <nav>
-    <ul id="nav">
-	<ul id="navreserva">
-      <li><a href="{% url '/index.html' %}" class="active">Inicio</a> </li>
-      <li><a href="#">Productos</a>
-        <ul>
-          <li><a href="{% url '/cine.html' %}" class="last">Cine</a></li>
-          <li><a href="{% url '/acidomatic.html' %}" class="last">Acid-O-Matic</a></li>
-	  <li><a href="{% url '/blancoynegro.html' %}" class="last">Blanco & Negro</a></li>
-	  <li><a href="{% url '/reserva.html' %}" class="last">Reserva</a></li>
-        </ul>
-      </li>
-      <li><a href="{% url '/historia.html' %}">Historia</a> </li>
-      <li><a href="{% url '/contacto.html' %}">Contacto</a> </li>
-    </ul>
-   </ul>
-  </nav>
-</header>
-<!-- end header -->
 
 <div id="content">
   <div class="container">
