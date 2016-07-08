@@ -157,13 +157,13 @@ nav { margin:0px auto; position:relative; display:table; height:41px; z-index:12
 
 /* =6. Main Content
 --------------------------------------------------------------------------------------------------------*/
-header { position:relative; z-index:5555; width:920px; margin:0 auto; margin-top:40px; padding:23px 40px; background:url(../images/alfred_rollos.JPG) center top no-repeat; height:400px; background-size:920px 400px;}
+header { position:relative; z-index:5555; width:920px; margin:0 auto; margin-top:40px; padding:23px 40px; background:url(../images/alfred_rollos.JPG) center 100px no-repeat; height:400px; background-size:920px 400px;}
 .portfolio header { background:url(../images/pic01c.jpg) center top no-repeat; }
 .alternative header { background:url(../images/pic01b.jpg) center top no-repeat; }
-.about header { background:url(../images/alfred_historia.jpg) center top no-repeat; background-size:920px 400px;}
+.about header { background:url(../images/alfred_historia.jpg) center 100px no-repeat; background-size:920px 400px;}
 .services header { background:url(../images/pic01f.jpg) center top no-repeat; }
 .blog header { background:url(../images/pic01g.jpg) center top no-repeat;  }
-.contact header { background:url(../images/alfred_contacto.jpg) center top no-repeat;background-size:920px 400px; }
+.contact header { background:url(../images/alfred_contacto.jpg) center 100px no-repeat;background-size:920px 400px; }
 .no-header-image header, .one-page header {background:none; height:auto; }
 #content {width:100%; position:relative; z-index:56; height:auto; margin-top:5px;}
 .container { padding:0px; width:930px; position:relative; margin:0 auto; }
