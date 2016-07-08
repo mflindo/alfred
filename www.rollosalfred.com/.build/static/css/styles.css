@@ -59,7 +59,7 @@
 --------------------------------------------------------------------------------------------------------*/
 html {overflow: -moz-scrollbars-vertical; overflow-y: scroll; -webkit-font-smoothing: antialiased; }
 body { font: 16px Oswald, Georgia, "Times New Roman", Times, serif; color:#555; background:#000;  }
-body.cine { font: 16px Oswald, Georgia, "Times New Roman", Times, serif; color:#555; background:#ecda62;  }
+body.cine { font: 16px Oswald, Georgia, "Times New Roman", Times, serif; color:#555; background:#ffde00;  }
 body.acid { font: 16px Oswald, Georgia, "Times New Roman", Times, serif; color:#555; background:#a7dbd5;  }
 body.reserva { font: 16px Oswald, Georgia, "Times New Roman", Times, serif; color:#555; background:#365642;  }
 strong { font-weight:600; }
