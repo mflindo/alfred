@@ -101,6 +101,17 @@ a h4.alfred-link {
 span.child {
     display: none!important;
 }
+.images.rollo {
+    margin-top: 50px;
+    padding: 25px;
+}
+.images.rollo.right {
+    /*padding-left: 40px;
+    padding-right: 0px;*/
+}
+.info-wrapper {
+    margin-top: 0px!important;
+}
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), not all, not all, not all{
   /* Acid-O-Matic Icons */
@@ -119,6 +130,7 @@ span.child {
 .footerreserva .instagram {background:url(../images/bg-instagram@2x_reserva.png) center no-repeat; background-size:50px 51px; }
   
 }
+
 @media only screen and (max-width: 767px){
     .col1-2{
         width: 100%;
