@@ -90,7 +90,7 @@ a h4.alfred-link {
     display: inline-block;
     width: 100%;
 }
-.grid-item { width: 32%;    padding: 3px; }
+.grid-item { width: 33.3%;    padding: 3px; }
 .grid-item--width2 { width: 64%; }
 .grid-item img {
     width: 100%;
@@ -123,4 +123,5 @@ span.child {
     .col1-2{
         width: 100%;
     }
+    .grid-item { width: 50%;    padding: 3px; }
 }
