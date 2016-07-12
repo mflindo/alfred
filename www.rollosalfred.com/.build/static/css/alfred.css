@@ -78,6 +78,30 @@ a h4.alfred-link {
 .col1-2{
     width: 48%;
 }
+/*.gallery .col1-3 {
+    width: 33%;
+    padding-right: 5px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}*/
+
+.gallery {
+    margin-top: 30px;
+    display: inline-block;
+    width: 100%;
+}
+.grid-item { width: 32%;    padding: 3px; }
+.grid-item--width2 { width: 64%; }
+.grid-item img {
+    width: 100%;
+}
+.grid {
+    width: 100%;
+}
+span.child {
+    display: none!important;
+}
+
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), not all, not all, not all{
   /* Acid-O-Matic Icons */
 .footeracid .twitter {background:url(../images/bg-twitter@2x_acid.png) center no-repeat; background-size:50px 51px; } 

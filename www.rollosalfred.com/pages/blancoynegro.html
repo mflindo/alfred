@@ -17,26 +17,7 @@ footer:
     <div id="container" class="clearfix">
       <section class="element  clearfix col3-3 auto home">
         <div class="flexslider">
-          <div class="images">
-            <ul class="slides">
-              <li><img src="/static/images/alfred_blancoynegro4.jpg" alt="" />
-                <div class="caption">
-                  <p class="big">1 <span>of</span> 2</p>
-                </div>
-              </li>
-              <li><img src="/static/images/alfred_blancoynegro2.jpg" alt="" />
-                <div class="caption">
-                  <p class="big">2 <span>of</span> 3</p>
-                </div>
-              </li>
-	<li><img src="/static/images/alfred_blancoynegro3.jpg" alt="" />
-                <div class="caption">
-                  <p class="big">3 <span>of</span> 3</p>
-                </div>
-              </li>
-		
-            </ul>
-          </div>
+
         </div>
         <div class="col3-3 white-bottom auto">
           <div class="clear"></div>
@@ -49,7 +30,7 @@ footer:
             <p class="small"><span>Categoria:</span><br />
               Profesional
             </p>
-            <p class="small"><span>Revelados</span><br />
+            <p class="small"><span>Revelado</span><br />
               B&N Manual<br />
             </p>
             <p class="small">
@@ -69,6 +50,8 @@ footer:
 
           </div>
           <div class="column2">
+              <h2>ALFRED BLANCO & NEGRO</h2>
+              <HR>
 	    <h3>Datos Técnicos</h3>
             <p>Este rollo ALFRED Blanco & Negro 200 contiene una emulsión pancromática de mediana sensibilidad, bajo grano y excelente nitidez. Idealmente, el rollo contaría con cuarenta exposiciones pero este factor puede variar entre 38 y 42 debido a su ensamblaje manual, hecho con material virgen de primera calidad y chasis reciclados. Alrededor de la exposición 38, correr la película con cuidado hasta sentir un tope. NO FORZAR.</p>
           
@@ -142,6 +125,22 @@ footer:
 		</table>
            
           </div> 
+        
+        <div class="gallery">
+            <h3>Galería de Imágenes</h3>
+            <br>
+            <div class="grid">
+                 {% for cine in BN_GALLERY %}
+                  <div class="grid-item">
+                      <a href="/static/images/rollos/bn/hd/hd_bn_{{ cine }}.jpg" data-title="Alfred Cine - Rollos Fotográficos artesanales" data-fancybox-group="group1" class="popup" target="_blank">
+                        <img src="/static/images/rollos/bn/tb_bn_{{ cine }}.jpg" alt="Alfred Cine - Rollos Fotográficos artesanales" class="lazy" />
+                      </a>
+                  </div>
+                {% endfor %}
+
+            </div>
+
+        </div>
           <div class="clear"></div>
           <div class="borderline"></div>
           <div class="borderline second"></div>
@@ -155,51 +154,7 @@ footer:
           <div class="clear"></div>
         </div>
       </section>
-      <section class="element  clearfix col1-3 half home photography"> <a href="/static/images/byn_hq1.jpg" data-title="Fotografía Blanco y Negro 200" data-fancybox-group="group1" class="popup" target="_blank">
-        <div class="images">
-          <div class="parent">
-            <div class="child">
-              <div class="icons zoom"></div>
-              <div class="info-wrapper">
-                <h4>Maquillaje</h4>
-                <p class="small">Fotografía</p>
-              </div>
-            </div>
-          </div>
-          <img src="/static/images/byn_th1.jpg" alt="" />
-          <div class="overlay"></div>
-        </div>
-        </a> </section>
-      <section class="element  clearfix col1-3 half home photography"> <a href="/static/images/byn_hq2.jpg" data-title="Fotografía Blanco y Negro 200" data-fancybox-group="group1" class="popup" target="_blank">
-        <div class="images">
-          <div class="parent">
-            <div class="child">
-              <div class="icons zoom"></div>
-              <div class="info-wrapper">
-                <h4>Carro</h4>
-                <p class="small">Fotografía</p>
-              </div>
-            </div>
-          </div>
-          <img src="/static/images/byn_th2.jpg" alt="" />
-          <div class="overlay"></div>
-        </div>
-        </a> </section>
-      <section class="element  clearfix col1-3 half home photography"> <a href="/static/images/byn_hq3.jpg" data-title="Fotografía Blanco y Negro 200" data-fancybox-group="group1" class="popup" target="_blank">
-        <div class="images">
-          <div class="parent">
-            <div class="child">
-              <div class="icons zoom"></div>
-              <div class="info-wrapper">
-                <h4>Personajes</h4>
-                <p class="small">Fotografía</p>
-              </div>
-            </div>
-          </div>
-          <img src="/static/images/byn_th3.jpg" alt="" />
-          <div class="overlay"></div>
-        </div>
-        </a> </section>
+  
     </div>
   </div>
   <!-- end container -->

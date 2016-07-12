@@ -16,25 +16,6 @@ footer: footerreserva
     <div id="container" class="clearfix">
       <section class="element  clearfix col3-3 auto home">
         <div class="flexslider">
-          <div class="images">
-            <ul class="slides">
-              <li><img src="/static/images/alfred_reserva4.jpg" alt="" />
-                <div class="caption">
-                  <p class="big">1 <span>of</span> 3</p>
-                </div>
-              </li>
-              <li><img src="/static/images/alfred_reserva2.jpg" alt="" />
-                <div class="caption">
-                  <p class="big">2 <span>of</span> 3</p>
-                </div>
-              </li>
-		<li><img src="/static/images/alfred_reserva3.jpg" alt="" />
-                <div class="caption">
-                  <p class="big">3 <span>of</span> 3</p>
-                </div>
-              </li>
-            </ul>
-          </div>
         </div>
         <div class="col3-3 white-bottom auto">
           <div class="clear"></div>
@@ -47,7 +28,7 @@ footer: footerreserva
             <p class="small"><span>Categoria:</span><br />
               Experimental
             </p>
-            <p class="small"><span>Revelados</span><br />
+            <p class="small"><span>Revelado</span><br />
               ECN-2 / C-41 (Ver detalle en caja<br /></span>
             </p>
             <p class="small">
@@ -65,6 +46,8 @@ footer: footerreserva
             </p>
         </div>
           <div class="column2">
+              <h2>ALFRED RESERVA</h2>
+              <HR>
 	    <h3>Datos Técnicos</h3>
             <p>Este rollo ALFRED Reserva contiene una emulsión vencida especificada en su etiqueta y producida en cantidades limitades. Buscamos lotes de película vencida alrededor del mundo y los enrollamos para rescatar emulsiones de distintas épocas, producidas bajo distintos estándares y percepciones de la fotografía analógica. ALFRED Reserva es nuestro esfuerzo por salvar el fruto de marcas algunas vez grandiosas que han producido incontables versiones de la emulsión fílmica y que con los años han entrado en decadencia, reduciendo su stock y variedad de película.</p>
 	<p>Idealmente, el rollo contaría con cuarenta exposiciones, pero este factor puede variar entre 38 y 42 debido a su ensamblaje manual, hecho con material virgen de primera calidad y chasis reciclados. Alrededor de la exposición 38, correr la película con cuidado hasta sentir un tope. NO FORZAR.</p>
@@ -119,6 +102,22 @@ footer: footerreserva
 		
            
           </div> 
+        
+        <div class="gallery">
+            <h3>Galería de Imágenes</h3>
+            <br>
+            <div class="grid">
+                 {% for cine in RESERVA_GALLERY %}
+                  <div class="grid-item">
+                      <a href="/static/images/rollos/reserva/hd/hd_reserva_{{ cine }}.jpg" data-title="Alfred Cine - Rollos Fotográficos artesanales" data-fancybox-group="group1" class="popup" target="_blank">
+                        <img src="/static/images/rollos/reserva/tb_reserva_{{ cine }}.jpg" alt="Alfred Cine - Rollos Fotográficos artesanales" class="lazy" />
+                      </a>
+                  </div>
+                {% endfor %}
+
+            </div>
+
+        </div>
           <div class="clear"></div>
           <div class="borderline"></div>
           <div class="borderline second"></div>
@@ -132,51 +131,7 @@ footer: footerreserva
           <div class="clear"></div>
         </div>
       </section>
-      <section class="element  clearfix col1-3 half home photography"> <a href="/static/images/reserva_hq1.jpg" data-title="Fotografía Reserva" data-fancybox-group="group1" class="popup" target="_blank">
-        <div class="images">
-          <div class="parent">
-            <div class="child">
-              <div class="icons zoom"></div>
-              <div class="info-wrapper">
-                <h4>Planificación</h4>
-                <p class="small">Fotografía</p>
-              </div>
-            </div>
-          </div>
-          <img src="/static/images/reserva_th1.jpg" alt="" />
-          <div class="overlay"></div>
-        </div>
-        </a> </section>
-      <section class="element  clearfix col1-3 half home photography"> <a href="/static/images/reserva_hq2.jpg" data-title="Fotografía Reserva" data-fancybox-group="group1" class="popup" target="_blank">
-        <div class="images">
-          <div class="parent">
-            <div class="child">
-              <div class="icons zoom"></div>
-              <div class="info-wrapper">
-                <h4>Gasolinera</h4>
-                <p class="small">Fotografía</p>
-              </div>
-            </div>
-          </div>
-          <img src="/static/images/reserva_th2.jpg" alt="" />
-          <div class="overlay"></div>
-        </div>
-        </a> </section>
-      <section class="element  clearfix col1-3 half home photography"> <a href="/static/images/byn_hq3.jpg" data-title="Fotografía Reserva" data-fancybox-group="group1" class="popup" target="_blank">
-        <div class="images">
-          <div class="parent">
-            <div class="child">
-              <div class="icons zoom"></div>
-              <div class="info-wrapper">
-                <h4>Mujer</h4>
-                <p class="small">Fotografía</p>
-              </div>
-            </div>
-          </div>
-          <img src="/static/images/reserva_th3.jpg" alt="" />
-          <div class="overlay"></div>
-        </div>
-        </a> </section>
+     
     </div>
   </div>
   <!-- end container -->
